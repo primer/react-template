@@ -21,3 +21,11 @@ The quickest way to test out or prototype something in [Primer React](https://pr
 3. Run `yarn start`
 4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 5. Go to `src/Playground.js` to start prototyping.
+
+## 5 reasons why this is great
+- Color modes are instantly available
+- No clutter on your local computer
+- No local problems
+- No linter or formatter issues
+- Send over a preview link while working live on your code, no waiting for deploy previews needed.
+- No need to set up a new react project, just instantly start prototyping
