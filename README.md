@@ -2,7 +2,7 @@
 
 The quickest way to test out or prototype something in [Primer React](https://primer.style/react/) without having to set up a new project is by using this template. 
 
-<img width="902" alt="Frame 1" src="https://user-images.githubusercontent.com/980622/133631986-066f1e9c-a3f4-4777-8edc-22adaa8273c9.png">
+<img width="902" alt="preview" src="https://user-images.githubusercontent.com/980622/133642956-9eba4d44-ce66-434f-afe0-a88be0104682.png">
 
 ## Get Started (Codespaces)
 
@@ -22,10 +22,14 @@ The quickest way to test out or prototype something in [Primer React](https://pr
 4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 5. Go to `src/Playground.js` to start prototyping.
 
-## 5 reasons why this is great
-- Color modes are instantly available
-- No clutter on your local computer
-- No local problems
-- No linter or formatter issues
-- Send over a preview link while working live on your code, no waiting for deploy previews needed.
-- No need to set up a new react project, just instantly start prototyping
+## 10 reasons why this is great
+- 🧑🏻‍💻 Get used to using Codespaces
+- 🥺 You're a new Hubber, you have enough to learn already
+- 👁 Color mode test your layout quickly
+- 🧖‍♀️ Prototype layouts outside the main platform
+- 🗑 No clutter on your local computer
+- 🥴 No local problems
+- 🪄 No linter or formatter issues
+- ▶️ Send over a preview link while working live on your code, no waiting for deploy previews needed.
+- 🚀 No need to set up a new react project, just instantly start prototyping
+- 🧪 You want to learn React
