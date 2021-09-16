@@ -11,7 +11,7 @@ The quickest way to test out or prototype something in [Primer React](https://pr
 3. Pick any machine type and click `create codespace`
 4. Wait until the container is built and `Running postCreateCommand...` is finished running in the bottom `TERMINAL` panel.
 5. Now in the bottom `TERMINAL` panel write the `yarn start` command and hit enter.
-6. When it's finished building your project click `allow` to open a preview of it. If this doesn't happen click `PORTS` in the bottom window and open the `Local Address` from there.
+6. When it's finished building your project click `Open` to open a preview of it. If this doesn't happen click `PORTS` in the bottom window and open the `Local Address` from there.
 7. Now you are in Mona's playground 🎉 and you can start editing the `src/Playground.js` file to play around with Primer React.
 
 ## Get Started (Locally)
