@@ -29,6 +29,7 @@ function Playground() {
       <MarkGithubIcon size={24} />
       <Box
         maxWidth={600}
+        width="100%"
         height={300}
         bg="bg.canvasInverse"
         borderRadius={2}
