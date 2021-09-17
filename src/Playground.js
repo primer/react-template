@@ -33,9 +33,6 @@ function Playground() {
         height={300}
         bg="bg.canvasInverse"
         borderRadius={2}
-        borderColor="border.primary"
-        borderWidth={1}
-        borderStyle="solid"
         p={4}
         my={6}
       >
