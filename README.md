@@ -37,4 +37,3 @@ The quickest way to test out or prototype something in [Primer React](https://pr
 ## Useful Links
 - [🧠 Primer React Documentation](https://primer.style/react/)
 - [🌈 Primer Primitives (Colors)](https://primer.style/primitives/colors)
-- [▶️ Workshop: Getting started with Codespaces for Designers](https://github.rewatch.com/video/cqjbljhwlmbfrj4n-workshop-getting-started-with-codespaces-for-designers)
