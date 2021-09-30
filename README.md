@@ -1,6 +1,6 @@
 # Primer React Template 🐱⚛️
 
-The quickest way to test out or prototype something in [Primer React](https://primer.style/react/) without having to set up a new project is by using this template. 
+The quickest way to test out or prototype something in [Primer React](https://primer.style/react/) without having to set up a new project.
 
 <img width="902" alt="preview" src="https://user-images.githubusercontent.com/980622/133642956-9eba4d44-ce66-434f-afe0-a88be0104682.png">
 
