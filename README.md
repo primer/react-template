@@ -14,6 +14,8 @@ The quickest way to test out or prototype something in [Primer React](https://pr
 6. When it's finished building your project click `Open` to open a preview of it. If this doesn't happen click `PORTS` in the bottom window and open the `Local Address` from there.
 7. Now you are in Mona's playground 🎉 and you can start editing the `src/Playground.js` file to play around with Primer React.
 
+https://user-images.githubusercontent.com/980622/135662854-946e5d2d-b6d1-4cbf-a769-318bf52858a8.mov
+
 ## Get Started (Locally)
 
 1. Clone the project
