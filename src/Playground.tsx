@@ -5,6 +5,7 @@ import {
   CommentIcon,
   MortarBoardIcon,
 } from "@primer/octicons-react";
+import { ReactNode } from "react";
 
 import MonaLoadingImage from "./images/mona-loading.gif";
 
@@ -52,17 +53,23 @@ function Playground() {
   );
 }
 
-function CodeLine({ icon, iconColor, children }) {
+interface CodeLineProps {
+  iconColor: string
+  icon: React.FunctionComponent
+  children: ReactNode
+}
+
+const CodeLine: React.FunctionComponent<CodeLineProps> = ({icon, iconColor, children}) => {
   return (
     <Box display="flex" color="text.inverse" mb={2}>
       <Box display="flex" mt="2px" width={20} minWidth={20}>
         <StyledOcticon icon={icon} size={16} color={iconColor} />
       </Box>
-      <Text as="p" flex={1} fontSize={1} fontFamily="mono" ml={2}>
+      <Text fontSize={1} fontFamily="mono" ml={2}>
         {children}
       </Text>
     </Box>
-  );
+  )
 }
 
 function Footer() {
