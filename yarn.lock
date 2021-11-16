@@ -1563,13 +1563,14 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
-"@primer/components@^29.0.0":
-  version "29.0.0"
-  resolved "https://registry.yarnpkg.com/@primer/components/-/components-29.0.0.tgz#5edf00d344020833afa16029827db9f0483d956b"
-  integrity sha512-9S/1LYjBWYfO+oYwNH3GYPJe3Q/CPUAm8VJNUZj2myxyA4tfEfxBQxUPtn9fqlHQHri9OfxbQQ3JJdAVBxZw3Q==
+"@primer/components@^31.1.0":
+  version "31.1.0"
+  resolved "https://registry.yarnpkg.com/@primer/components/-/components-31.1.0.tgz#743094a564dbd16d7d9055985fa122e2a6e9627c"
+  integrity sha512-7Be9x8xoDG5emKWbJ4Y6QOSxOozsipYTnbZPZsEpXq40X7IgIaS1sKaLAlyLfs7w399VFLfw5iCB80G2WkxfmA==
   dependencies:
     "@primer/octicons-react" "^13.0.0"
-    "@primer/primitives" "4.6.4"
+    "@primer/primitives" "5.1.0"
+    "@radix-ui/react-polymorphic" "0.0.14"
     "@react-aria/ssr" "3.1.0"
     "@styled-system/css" "5.1.5"
     "@styled-system/props" "5.1.5"
@@ -1577,9 +1578,10 @@
     "@types/history" "4.7.8"
     "@types/styled-components" "5.1.11"
     "@types/styled-system" "5.1.12"
-    "@types/styled-system__css" "5.0.15"
+    "@types/styled-system__css" "5.0.16"
     "@types/styled-system__theme-get" "5.0.1"
     classnames "2.3.1"
+    color2k "1.2.4"
     deepmerge "4.2.2"
     focus-visible "5.2.0"
     styled-system "5.1.5"
@@ -1594,10 +1596,15 @@
   resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-15.1.0.tgz#0f68700d1196e0a65b5e782483d5207914cd6e62"
   integrity sha512-KxKShchstSiZDVZ3aUF9WREdAoV45bzIgAbPcKfrT08+2T4nVQZGYtwDqlHT4/TLpmVIv2Si7hRHBhTWiADe4Q==
 
-"@primer/primitives@4.6.4":
-  version "4.6.4"
-  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-4.6.4.tgz#d31c37ee0e143cfbea47838fc02d33d95903c1f1"
-  integrity sha512-KKlP7m+94pbuFl3BYycQrmtNhX5+0gK3ftAh5L4a73Ov4FHbgMyVto3Cr0C5tlpvg0760Nisu+e/4T+/uvx8tA==
+"@primer/primitives@5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-5.1.0.tgz#698ad3a173f3a1d7090651cce0a7088e4b93da39"
+  integrity sha512-pW8DIh6rZV0/R7lxHnVRJ/tdN4kDVSpAtdcCecxKsvtgK5d9haekt3ERpM6i93xKwB5CJYy9ouuC9C0UqWPI0A==
+
+"@radix-ui/react-polymorphic@0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-polymorphic/-/react-polymorphic-0.0.14.tgz#fc6cefee6686db8c5a7ff14c8c1b9b5abdee325b"
+  integrity sha512-9nsMZEDU3LeIUeHJrpkkhZVxu/9Fc7P2g2I3WR+uA9mTbNC3hGaabi0dV6wg0CfHb+m4nSs1pejbE/5no3MJTA==
 
 "@react-aria/ssr@3.1.0":
   version "3.1.0"
@@ -2063,10 +2070,10 @@
   dependencies:
     csstype "^3.0.2"
 
-"@types/styled-system__css@5.0.15":
-  version "5.0.15"
-  resolved "https://registry.yarnpkg.com/@types/styled-system__css/-/styled-system__css-5.0.15.tgz#f6f896e33393f8b3763f275afaa84261dae77a54"
-  integrity sha512-bbFlY2ATFEaWEMOllEqMktSzq4yGPAiZSrjGUQ124LSStm9QPhKErOuTxXfJi8VuymaQ+g1uC8AbC2o3BpgQyA==
+"@types/styled-system__css@5.0.16":
+  version "5.0.16"
+  resolved "https://registry.yarnpkg.com/@types/styled-system__css/-/styled-system__css-5.0.16.tgz#cae75cef03dfa1020703e842a8b1c14d8f9a8f33"
+  integrity sha512-Cji5miCIpR27m8yzH6y3cLU6106N4GVyPgUhBQ4nL7VxgoeAtRdAriKdGTnRgJzSpT3HyB7h5G//cDWOl0M1jQ==
   dependencies:
     csstype "^3.0.2"
 
@@ -3581,6 +3588,11 @@ color-string@^1.5.4:
   dependencies:
     color-name "^1.0.0"
     simple-swizzle "^0.2.2"
+
+color2k@1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/color2k/-/color2k-1.2.4.tgz#af34950ac58e23cf224a01cb8dd0c9911a79605e"
+  integrity sha512-DiwdBwc0BryPFFXoCrW8XQGXl2rEtMToODybxZjKnN5IJXt/tV/FsN02pCK/b7KcWvJEioz3c74lQSmayFvS4Q==
 
 color@^3.0.0:
   version "3.1.3"
