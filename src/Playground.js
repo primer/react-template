@@ -36,10 +36,10 @@ function Playground() {
         p={4}
         my={6}
       >
-        <CodeLine icon={CheckIcon} iconColor="icon.tertiary">
+        <CodeLine icon={CheckIcon} iconColor="success.fg">
           Mona's playground successfully initialised...
         </CodeLine>
-        <CodeLine icon={CommentIcon} iconColor="icon.tertiary">
+        <CodeLine icon={CommentIcon} iconColor="accent.fg">
           Visit <Text color="text.warning">src/Playground.js</Text> and start
           building your own layouts using Primer.
         </CodeLine>
@@ -75,7 +75,7 @@ function Footer() {
           color="attention.fg"
           mr={1}
         />
-        <Text color="attention.emphasis">Tip</Text>
+        <Text color="attention.fg">Tip</Text>
       </Box>
       <Text>
         Before you get started check out our{" "}
