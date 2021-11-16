@@ -1,17 +1,17 @@
-import { ThemeProvider } from "@primer/components";
-import { BaseStyles } from "@primer/components";
+import { ThemeProvider } from '@primer/components'
+import { BaseStyles } from '@primer/components'
 
-import Playground from "./Playground";
-import ColorModeSwitcher from "./ColorModeSwitcher";
+import Playground from './Playground'
+import ColorModeSwitcher from './ColorModeSwitcher'
 function App() {
-  return (
-    <ThemeProvider colorMode="auto">
-      <BaseStyles>
-        <Playground />
-        <ColorModeSwitcher />
-      </BaseStyles>
-    </ThemeProvider>
-  );
+    return (
+        <ThemeProvider colorMode="auto">
+            <BaseStyles>
+                <Playground />
+                <ColorModeSwitcher />
+            </BaseStyles>
+        </ThemeProvider>
+    )
 }
 
-export default App;
+export default App
