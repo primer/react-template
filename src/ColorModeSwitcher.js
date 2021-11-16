@@ -1,8 +1,9 @@
 import { useTheme, SelectMenu, Button, Box } from "@primer/components";
 
 function ColorModeSwitcher() {
-  const { setDayScheme, setNightScheme, colorScheme } = useTheme();
+  const { setDayScheme, setNightScheme, colorScheme, theme } = useTheme();
 
+  console.log(theme.colorSchemes)
   const setScheme = (schemeValue) => {
     setDayScheme(schemeValue);
     setNightScheme(schemeValue);
@@ -14,13 +15,25 @@ function ColorModeSwitcher() {
       value: "light",
     },
     {
+      name: "Light colorblind",
+      value: "light_protanopia",
+    },
+    {
       name: "Dark",
       value: "dark",
     },
     {
+      name: "Dark colorblind",
+      value: "dark_protanopia",
+    },
+    {
+      name: "Dark high contrast",
+      value: "dark_high_contrast",
+    },
+    {
       name: "Dark Dimmed",
       value: "dark_dimmed",
-    },
+    }
   ];
 
   const currentName = schemes.find(

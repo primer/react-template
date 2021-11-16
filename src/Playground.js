@@ -17,7 +17,7 @@ function Playground() {
 
   return (
     <Box
-      bg="bg.primary"
+      bg="canvas.default"
       width="100%"
       minHeight="100vh"
       display="flex"
@@ -31,7 +31,7 @@ function Playground() {
         maxWidth={600}
         width="100%"
         height={300}
-        bg="bg.canvasInverse"
+        bg="neutral.emphasisPlus"
         borderRadius={2}
         p={4}
         my={6}
@@ -54,7 +54,7 @@ function Playground() {
 
 function CodeLine({ icon, iconColor, children }) {
   return (
-    <Box display="flex" color="text.inverse" mb={2}>
+    <Box display="flex" color="fg.onEmphasis" mb={2}>
       <Box display="flex" mt="2px" width={20} minWidth={20}>
         <StyledOcticon icon={icon} size={16} color={iconColor} />
       </Box>
@@ -72,10 +72,10 @@ function Footer() {
         <StyledOcticon
           icon={MortarBoardIcon}
           size={16}
-          color="icon.warning"
+          color="attention.fg"
           mr={1}
         />
-        <Text color="text.warning">Tip</Text>
+        <Text color="attention.emphasis">Tip</Text>
       </Box>
       <Text>
         Before you get started check out our{" "}
