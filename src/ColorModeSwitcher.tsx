@@ -11,12 +11,24 @@ const SCHEMES: Array<Scheme> = [
     value: "light",
   },
   {
+    name: "Light ;lolorblind",
+    value: "light_colorblind",
+  },
+  {
     name: "Dark",
     value: "dark",
   },
   {
-    name: "Dark Dimmed",
+    name: "Dark colorblind",
+    value: "dark_colorblind",
+  },
+  {
+    name: "Dark dimmed",
     value: "dark_dimmed",
+  },
+  {
+    name: "Dark High Contrast",
+    value: "dark_high_contrast",
   },
 ];
 
