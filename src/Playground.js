@@ -13,6 +13,7 @@ function Playground() {
     WELCOME TO MONA's 😽🐙 PLAYGROUND
     Delete everything in here or play with the existing Mona playground code to get familiar with Primer React.
     Documentation: https://primer.style/react
+    Documentation colors: https://primer.style/primitives/colors
   */
 
     return (
