@@ -2,7 +2,7 @@ import { useTheme, SelectMenu, Button, Box } from '@primer/components'
 import { SunIcon, MoonIcon } from '@primer/octicons-react'
 
 function ColorModeSwitcher() {
-    const { setDayScheme, setNightScheme, colorScheme, theme } = useTheme()
+    const { setDayScheme, setNightScheme, colorScheme } = useTheme()
 
     const setScheme = (schemeValue) => {
         setDayScheme(schemeValue)
