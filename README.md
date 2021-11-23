@@ -19,7 +19,7 @@ https://user-images.githubusercontent.com/980622/135662854-946e5d2d-b6d1-4cbf-a7
 
 ## Get Started (CodeSandbox)
 
-1. Click [this link to open in CodeSandbox](https://codesandbox.io/s/github/primer/react-template?file=/src/Playground.js)
+Click [this link to open in CodeSandbox](https://codesandbox.io/s/github/primer/react-template?file=/src/Playground.js)
 
 ## Get Started (Locally)
 
