@@ -1,4 +1,4 @@
-import { Box, Text, Link, StyledOcticon } from '@primer/components'
+import { Box, Text, Link, StyledOcticon } from '@primer/react'
 import {
     MarkGithubIcon,
     CheckIcon,
@@ -79,7 +79,7 @@ function Footer() {
                     icon={MortarBoardIcon}
                     size={16}
                     color="attention.fg"
-                    mr={1}
+                    sx={{ mr: 1 }}
                 />
                 <Text color="attention.fg">Tip</Text>
             </Box>

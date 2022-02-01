@@ -1,4 +1,4 @@
-import { useTheme, SelectMenu, Button, Box } from '@primer/components'
+import { useTheme, SelectMenu, Button, Box } from '@primer/react'
 import { SunIcon, MoonIcon } from '@primer/octicons-react'
 
 function ColorModeSwitcher() {
@@ -17,7 +17,7 @@ function ColorModeSwitcher() {
         },
         {
             name: 'Light colorblind',
-            value: 'light_protanopia',
+            value: 'light_colorblind',
             icon: SunIcon,
         },
         {
@@ -27,7 +27,7 @@ function ColorModeSwitcher() {
         },
         {
             name: 'Dark colorblind',
-            value: 'dark_protanopia',
+            value: 'dark_colorblind',
             icon: MoonIcon,
         },
         {

@@ -1,5 +1,4 @@
-import { ThemeProvider } from '@primer/components'
-import { BaseStyles } from '@primer/components'
+import { ThemeProvider, BaseStyles } from '@primer/react'
 
 import Playground from './Playground'
 import ColorModeSwitcher from './ColorModeSwitcher'
