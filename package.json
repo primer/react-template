@@ -19,7 +19,8 @@
     "eslintConfig": {
         "extends": [
             "react-app",
-            "react-app/jest"
+            "react-app/jest",
+            "plugin:primer-react/recommended"
         ]
     },
     "browserslist": {
@@ -33,5 +34,8 @@
             "last 3 firefox version",
             "last 3 safari version"
         ]
+    },
+    "devDependencies": {
+        "eslint-plugin-primer-react": "^0.7.4"
     }
 }
