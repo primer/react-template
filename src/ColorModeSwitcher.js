@@ -1,4 +1,4 @@
-import { useTheme, SelectMenu, Button, Box } from '@primer/react'
+import { useTheme, ActionMenu, ActionList, Box } from '@primer/react'
 import { SunIcon, MoonIcon } from '@primer/octicons-react'
 
 function ColorModeSwitcher() {
@@ -47,29 +47,31 @@ function ColorModeSwitcher() {
     return (
         <Box position="absolute" top={0} right={0} p={3}>
             <Box position="relative" display="flex" justifyContent="flex-end">
-                <SelectMenu>
-                    <Button as="summary" variant="small">
+                <ActionMenu>
+                    <ActionMenu.Button size="small">
                         <current.icon />
                         <Box display="inline-block" ml={2}>
                             {' '}
                             {current.name}
                         </Box>
-                    </Button>
-                    <SelectMenu.Modal align="right">
-                        <SelectMenu.List>
-                            {schemes.map((scheme) => (
-                                <SelectMenu.Item
-                                    key={scheme.value}
-                                    href="#"
-                                    selected={scheme.value === colorScheme}
-                                    onClick={() => setScheme(scheme.value)}
-                                >
-                                    {scheme.name}
-                                </SelectMenu.Item>
-                            ))}
-                        </SelectMenu.List>
-                    </SelectMenu.Modal>
-                </SelectMenu>
+                    </ActionMenu.Button>
+                    <ActionMenu.Overlay align="right">
+                        <ActionList showDividers>
+                            <ActionList.Group selectionVariant="single">
+                                {schemes.map((scheme) => (
+                                    <ActionList.Item
+                                        key={scheme.value}
+                                        href="#"
+                                        selected={scheme.value === colorScheme}
+                                        onClick={() => setScheme(scheme.value)}
+                                    >
+                                        {scheme.name}
+                                    </ActionList.Item>
+                                ))}
+                            </ActionList.Group>
+                        </ActionList>
+                    </ActionMenu.Overlay>
+                </ActionMenu>
             </Box>
         </Box>
     )
