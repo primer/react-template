@@ -9,7 +9,7 @@
         "@primer/octicons-react": "^17.3.0",
         "@primer/primitives": "^4.6.2",
         "@primer/react": "^35.4.0",
-        "eslint": "^4.19.0",
+        "eslint": "^8.0.0",
         "react": "^17.0.0",
         "react-dom": "^17.0.0",
         "react-is": "^16.8.0",
@@ -26,8 +26,7 @@
     "eslintConfig": {
         "extends": [
             "react-app",
-            "react-app/jest",
-            "plugin:primer-react/recommended"
+            "react-app/jest"
         ]
     },
     "browserslist": {
@@ -43,6 +42,6 @@
         ]
     },
     "devDependencies": {
-        "eslint-plugin-primer-react": "^0.7.4"
+        "eslint-config-react-app": "^7.0.1"
     }
 }
