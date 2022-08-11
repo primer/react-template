@@ -63,7 +63,7 @@ function ColorModeSwitcher() {
                                         key={scheme.value}
                                         href="#"
                                         selected={scheme.value === colorScheme}
-                                        onClick={() => setScheme(scheme.value)}
+                                        onSelect={() => setScheme(scheme.value)}
                                     >
                                         {scheme.name}
                                     </ActionList.Item>
