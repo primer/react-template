@@ -1388,6 +1388,26 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@github/combobox-nav@^2.1.5":
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/@github/combobox-nav/-/combobox-nav-2.1.7.tgz#ae7d895291dee847ce6218063d2c286fcfb2235e"
+  integrity sha512-Webx0W5iTpkk5Chy9dB/1BEUORQ0qrwui8HaaVBiy75W2VOJg96WTuKj1rXENAJ3XTMhdEF53bn0LYfvP0EKvg==
+
+"@github/markdown-toolbar-element@^2.1.0":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@github/markdown-toolbar-element/-/markdown-toolbar-element-2.1.1.tgz#08a0696be1006b42b6b29560104f1bca20341b06"
+  integrity sha512-J++rpd5H9baztabJQB82h26jtueOeBRSTqetk9Cri+Lj/s28ndu6Tovn0uHQaOKtBWDobFunk9b5pP5vcqt7cA==
+
+"@github/paste-markdown@^1.4.0":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@github/paste-markdown/-/paste-markdown-1.4.2.tgz#aedba0972536c2fc7944931b6e62bd43dc130592"
+  integrity sha512-ZwSgPyo9nA6TRngXV0QnFT4e5ujeOGxRDWN2aa6qfimz2o2VOsJ9bFGuGvB723nvzq5z9zKr6JWGtvK7MSJj3w==
+
+"@github/relative-time-element@^4.1.2":
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/@github/relative-time-element/-/relative-time-element-4.2.1.tgz#d844bc799e92b2fa74226fd2905391edd51efb9e"
+  integrity sha512-XwUfSNwcfBjKRHcUmbh87iFUhzAwO5eDQQ+MNpTFNq5JObFTQv0jmmL45vUsYutwuZCBQHLILXkIgSmHVsa4PA==
+
 "@humanwhocodes/config-array@^0.10.4":
   version "0.10.4"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.10.4.tgz#01e7366e57d2ad104feea63e72248f22015c520c"
@@ -1646,6 +1666,11 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.3.tgz#0300943770e04231041a51bd39f0439b5c7ab4f0"
   integrity sha512-nkalE/f1RvRGChwBnEIoBfSEYOXnCRdleKuv6+lePbMDrMZXeDQnqak5XDOeBgrPPyPfAdcCu/B5z+v3VhplGg==
 
+"@lit-labs/react@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@lit-labs/react/-/react-1.1.1.tgz#88a4320d357dcdfd7c7e276f809e3453a124cbbc"
+  integrity sha512-9TC+/ZWb6BJlWCyUr14FKFlaGnyKpeEDorufXozQgke/VoVrslUQNaL7nBmrAWdNrmzx5jWgi8lFmWwrxMjnlA==
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -1682,35 +1707,44 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@primer/behaviors@^1.1.1":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@primer/behaviors/-/behaviors-1.1.3.tgz#4945f79c39f8b4495ec868b053264830f687c7bc"
-  integrity sha512-WpCcjAkXG7Lv3ZbaCUgASWKHnCi/pmuSEiyTmHHb6f5xhwk1mliixNL5ZZHtDN6RCcT3VnXUsyek4GopG2lbZQ==
+"@primer/behaviors@1.3.3":
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/@primer/behaviors/-/behaviors-1.3.3.tgz#eddaec0d8d6056c7730ace74250fecd7533017a0"
+  integrity sha512-iHMRuu8YWDJIdqCi1krx0cyFNeqszNKTOb0dXFu2wQ5BeIqxqPJLD7rjZ2Vjf/+YaPSbWuIQE1H6TaGMMsDfdA==
 
 "@primer/octicons-react@^17.3.0":
   version "17.3.0"
   resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-17.3.0.tgz#a9b868db9520e48114fd402e56600e99bcb7e8b7"
   integrity sha512-72K4SeDj3WmehiQqVeOS+icvcO5+JHXK12ee3AqbZGqNqgCKdU4zJRKeC7EGMV4lQhoJXbj8OEdppBLa3qFDhw==
 
+"@primer/octicons-react@^17.7.0":
+  version "17.12.0"
+  resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-17.12.0.tgz#d863c32736e138d25b80bef5c2628a29963b7b22"
+  integrity sha512-GUjV6IT1Ck2lu2GVu1loR0e2dcX2e9aIVmX5rBdR7HJnRdYKY7XH+FnYj7y9sEmzUdNEDswxkefiQlfGrBXlzA==
+
+"@primer/primitives@7.10.0":
+  version "7.10.0"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.10.0.tgz#de0d9648d484184442583564f02d6600b872fa5f"
+  integrity sha512-DdLHq21e93R9qDHyRuRpytBLY0Up9IwNWMOUgPNW6lRSng4N4+IdUlLS3Ekbasmxfs8Z8vKS8aezeYovQ5qsxQ==
+
 "@primer/primitives@^4.6.2":
   version "4.8.1"
   resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-4.8.1.tgz#05f76e47f67018514fd54b35ca615b9d27ef2a46"
   integrity sha512-mgr6+EKpn4DixuhLt3drk7QmNQO8M7RYONWovg1nkV7p56jklhDLfZmp1luLUee37eQGAxx3ToStL6gqINFjnQ==
 
-"@primer/primitives@^7.6.0":
-  version "7.8.4"
-  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.8.4.tgz#484486ee47050f18b2e82c33e9df247a5886c82a"
-  integrity sha512-cXmnhKBvrwbP3FYR9oxNYx3s8y2svsQLbDNZuoGcsZJLQ6RD3HfQ9ZtXgbyTbTYTyfPvkyd0pkQLI7tRJSc5kg==
-
-"@primer/react@^35.4.0":
-  version "35.4.0"
-  resolved "https://registry.yarnpkg.com/@primer/react/-/react-35.4.0.tgz#8d616fc600a8208c84955e5d8bfe41afa64f9271"
-  integrity sha512-gXk7GauEIdgdqtX+uoY8PUo85PkPtvqBk2iwS03Dw1now490MDRhnjILlDbONozbB9Yt47LZBRogLraE4Ive8Q==
+"@primer/react@^35.20.0":
+  version "35.20.0"
+  resolved "https://registry.yarnpkg.com/@primer/react/-/react-35.20.0.tgz#78648c8f44b711bd0e00ace37f9e3c2d5df4f5a5"
+  integrity sha512-6YA/Fxo5q0qkFQlrwM5qXLN2/xy/9AE0ORPif92dtlLPLMWN5fx2BArq4lqVVvwQib/+u6FPTxqJpJMjuPb38g==
   dependencies:
-    "@primer/behaviors" "^1.1.1"
-    "@primer/octicons-react" "^17.3.0"
-    "@primer/primitives" "^7.6.0"
-    "@radix-ui/react-polymorphic" "^0.0.14"
+    "@github/combobox-nav" "^2.1.5"
+    "@github/markdown-toolbar-element" "^2.1.0"
+    "@github/paste-markdown" "^1.4.0"
+    "@github/relative-time-element" "^4.1.2"
+    "@lit-labs/react" "1.1.1"
+    "@primer/behaviors" "1.3.3"
+    "@primer/octicons-react" "^17.7.0"
+    "@primer/primitives" "7.10.0"
     "@react-aria/ssr" "^3.1.0"
     "@styled-system/css" "^5.1.5"
     "@styled-system/props" "^5.1.5"
@@ -1720,16 +1754,13 @@
     "@types/styled-system__css" "^5.0.16"
     "@types/styled-system__theme-get" "^5.0.1"
     classnames "^2.3.1"
-    color2k "^1.2.4"
+    color2k "^2.0.0"
     deepmerge "^4.2.2"
     focus-visible "^5.2.0"
+    fzy.js "0.4.1"
     history "^5.0.0"
+    react-intersection-observer "9.4.1"
     styled-system "^5.1.5"
-
-"@radix-ui/react-polymorphic@^0.0.14":
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/@radix-ui/react-polymorphic/-/react-polymorphic-0.0.14.tgz#fc6cefee6686db8c5a7ff14c8c1b9b5abdee325b"
-  integrity sha512-9nsMZEDU3LeIUeHJrpkkhZVxu/9Fc7P2g2I3WR+uA9mTbNC3hGaabi0dV6wg0CfHb+m4nSs1pejbE/5no3MJTA==
 
 "@react-aria/ssr@^3.1.0":
   version "3.2.0"
@@ -3331,10 +3362,10 @@ color-name@^1.1.4, color-name@~1.1.4:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-color2k@^1.2.4:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/color2k/-/color2k-1.2.5.tgz#3d8f08d213170f781fb6270424454dd3c0197b02"
-  integrity sha512-G39qNMGyM/fhl8hcy1YqpfXzQ810zSGyiJAgdMFlreCI7Hpwu3Jpu4tuBM/Oxu1Bek1FwyaBbtrtdkTr4HDhLA==
+color2k@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/color2k/-/color2k-2.0.2.tgz#ac2b4aea11c822a6bcb70c768b5a289f4fffcebb"
+  integrity sha512-kJhwH5nAwb34tmyuqq/lgjEKzlFXn1U99NlnB6Ws4qVaERcRUYeYP1cBw6BJ4vxaWStAUEef4WMr7WjOCnBt8w==
 
 colord@^2.9.1:
   version "2.9.2"
@@ -4756,6 +4787,11 @@ functions-have-names@^1.2.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/functions-have-names/-/functions-have-names-1.2.3.tgz#0404fe4ee2ba2f607f0e0ec3c80bae994133b834"
   integrity sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==
+
+fzy.js@0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/fzy.js/-/fzy.js-0.4.1.tgz#695bf87cc0bbdda9cbcf22bc318a74c4aca6b758"
+  integrity sha512-4sPVXf+9oGhzg2tYzgWe4hgAY0wEbkqeuKVEgdnqX8S8VcLosQsDjb0jV+f5uoQlf8INWId1w0IGoufAoik1TA==
 
 gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
@@ -7444,6 +7480,11 @@ react-error-overlay@^6.0.11:
   version "6.0.11"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.11.tgz#92835de5841c5cf08ba00ddd2d677b6d17ff9adb"
   integrity sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==
+
+react-intersection-observer@9.4.1:
+  version "9.4.1"
+  resolved "https://registry.yarnpkg.com/react-intersection-observer/-/react-intersection-observer-9.4.1.tgz#4ccb21e16acd0b9cf5b28d275af7055bef878f6b"
+  integrity sha512-IXpIsPe6BleFOEHKzKh5UjwRUaz/JYS0lT/HPsupWEQou2hDqjhLMStc5zyE3eQVT4Fk3FufM8Fw33qW1uyeiw==
 
 react-is@^16.13.1, react-is@^16.7.0, react-is@^16.8.0:
   version "16.13.1"
