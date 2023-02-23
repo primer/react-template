@@ -1,0 +1,8 @@
+---
+version: 2
+updates:
+    - package-ecosystem: 'npm'
+      directory: '/'
+      schedule:
+          # TODO: Change to weekly after merging and testing out
+          interval: 'daily'
