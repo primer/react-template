@@ -5,7 +5,7 @@
     "dependencies": {
         "@babel/core": "^7.21.0",
         "@babel/plugin-syntax-flow": "^7.14.5",
-        "@babel/plugin-transform-react-jsx": "^7.14.9",
+        "@babel/plugin-transform-react-jsx": "^7.21.0",
         "@primer/octicons-react": "^18.1.0",
         "@primer/primitives": "^7.11.1",
         "@primer/react": "^35.20.0",
