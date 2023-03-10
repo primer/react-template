@@ -8,7 +8,7 @@
         "@babel/plugin-transform-react-jsx": "^7.14.9",
         "@primer/octicons-react": "^18.1.0",
         "@primer/primitives": "^7.11.1",
-        "@primer/react": "^35.20.0",
+        "@primer/react": "^35.21.0",
         "eslint": "^8.35.0",
         "react": "^17.0.0",
         "react-dom": "^17.0.0",
