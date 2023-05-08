@@ -1584,10 +1584,17 @@
   resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-18.3.0.tgz#1b608048fe26e4e66d9f3de1eac8eb82195839f5"
   integrity sha512-kOoc4wrBw3bPe2ZPj9BmCwXdEkw8hxUX/tFCvcjOsZ6eywaQXm3PR0yZnPZxZ8o4RFj2tdg/cwGr4+cU83weHw==
 
-"@primer/primitives@7.11.1", "@primer/primitives@^7.11.1":
+"@primer/primitives@7.11.1":
   version "7.11.1"
   resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.11.1.tgz#f23a93674f6d04f3cfd3ce182b72dbf11ea86ad5"
   integrity sha512-Sdss4XG96nqBqrTAyg+RuFOj+U5wkICK8n2hafcyT+lpSlZoIwcbmhyFjmDy9f88FkhHe2q0uCpQ8PjKd8ILTQ==
+
+"@primer/primitives@^7.11.7":
+  version "7.11.7"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.11.7.tgz#f6219ab8ea7212e7fe0878c3ebbf26767efd437a"
+  integrity sha512-8PDEn3yj8oE/9B7o5hwjD0LSy7xz9xZ3gGTPWi/u0MxHZJ/fxERgxnBG21eCLKZ19KjhIb5AsmSQyFbGR5urYQ==
+  dependencies:
+    markdown-table-ts "^1.0.3"
 
 "@primer/react@^35.24.0":
   version "35.24.0"
@@ -6048,6 +6055,11 @@ makeerror@1.0.12:
   integrity sha512-JmqCvUhmt43madlpFzG4BQzG2Z3m6tvQDNKdClZnO3VbIudJYmxsT0FNJMeiB2+JTSlTQTSbU8QdesVmwJcmLg==
   dependencies:
     tmpl "1.0.5"
+
+markdown-table-ts@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/markdown-table-ts/-/markdown-table-ts-1.0.3.tgz#46e4163805f1ca0b1076863b93996ba77436f990"
+  integrity sha512-lYrp7FXmBqpmGmsEF92WnSukdgYvLm15FPIODZOx9+3nobkxJxjBYcszqZf5VqTjBtISPSNC7zjU9o3zwpL6AQ==
 
 mdn-data@2.0.14:
   version "2.0.14"
