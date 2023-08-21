@@ -45,12 +45,18 @@ function ColorModeSwitcher() {
     const current = schemes.find((scheme) => scheme.value === colorScheme)
 
     return (
-        <Box position="absolute" top={0} right={0} p={3}>
-            <Box position="relative" display="flex" justifyContent="flex-end">
+        <Box sx={{ position: 'absolute', top: 0, right: 0, p: 3 }}>
+            <Box
+                sx={{
+                    position: 'relative',
+                    dispaly: 'flex',
+                    justifyContent: 'flex-end',
+                }}
+            >
                 <ActionMenu>
                     <ActionMenu.Button size="small">
                         <current.icon />
-                        <Box display="inline-block" ml={2}>
+                        <Box sx={{ display: 'inline-block', ml: 2 }}>
                             {' '}
                             {current.name}
                         </Box>
