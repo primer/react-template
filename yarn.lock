@@ -1713,10 +1713,10 @@
   resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.15.0.tgz#25e1958bc92f69963a4aef7c3bdc46bbec11f603"
   integrity sha512-ut010QMQT2YcQcn6gLHBC97YVN0ToR+7phxl+351hC94a7EgVR9GtwLOqopqU7el2w6iOrUndHBxDuUg1TBWhg==
 
-"@primer/react@^35.32.1":
-  version "35.32.1"
-  resolved "https://registry.yarnpkg.com/@primer/react/-/react-35.32.1.tgz#afd51e598b5101301de0864e08f21c404cc46848"
-  integrity sha512-LwRPomdkU+cAXW68zWZHXlJ6me1WGR6XmUXY1FfAxpLIgvIwhAlSNNqPgvyo63brMh1QyD4G8a04mzrvd3Lbrg==
+"@primer/react@^36.0.0":
+  version "36.0.0"
+  resolved "https://registry.yarnpkg.com/@primer/react/-/react-36.0.0.tgz#286c0c7a0f4f2444c253efb84de852c47b67b701"
+  integrity sha512-mK9By55mT8rphpM8+DPAUNkPP4/C5JXALQzc2XzXFn4apykNeci3CZjEOUSC5qvD0c0tDFwYPN1i7s8KOwgKhA==
   dependencies:
     "@github/combobox-nav" "^2.1.5"
     "@github/markdown-toolbar-element" "^2.1.0"
@@ -1732,7 +1732,6 @@
     "@styled-system/props" "^5.1.5"
     "@styled-system/theme-get" "^5.1.2"
     "@types/react-is" "^18.2.1"
-    "@types/styled-components" "^5.1.11"
     "@types/styled-system" "^5.1.12"
     "@types/styled-system__css" "^5.0.16"
     "@types/styled-system__theme-get" "^5.0.1"
@@ -2181,14 +2180,6 @@
   dependencies:
     "@types/unist" "^2"
 
-"@types/hoist-non-react-statics@*":
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
-  integrity sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==
-  dependencies:
-    "@types/react" "*"
-    hoist-non-react-statics "^3.3.0"
-
 "@types/html-minifier-terser@^6.0.0":
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/@types/html-minifier-terser/-/html-minifier-terser-6.1.0.tgz#4fc33a00c1d0c16987b1a20cf92d20614c55ac35"
@@ -2365,15 +2356,6 @@
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.1.tgz#20f18294f797f2209b5f65c8e3b5c8e8261d127c"
   integrity sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==
-
-"@types/styled-components@^5.1.11":
-  version "5.1.26"
-  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-5.1.26.tgz#5627e6812ee96d755028a98dae61d28e57c233af"
-  integrity sha512-KuKJ9Z6xb93uJiIyxo/+ksS7yLjS1KzG6iv5i78dhVg/X3u5t1H7juRWqVmodIdz6wGVaIApo1u01kmFRdJHVw==
-  dependencies:
-    "@types/hoist-non-react-statics" "*"
-    "@types/react" "*"
-    csstype "^3.0.2"
 
 "@types/styled-system@^5.1.12":
   version "5.1.16"
@@ -5177,7 +5159,7 @@ history@^5.0.0:
   dependencies:
     "@babel/runtime" "^7.7.6"
 
-hoist-non-react-statics@^3.0.0, hoist-non-react-statics@^3.3.0:
+hoist-non-react-statics@^3.0.0:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
   integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
