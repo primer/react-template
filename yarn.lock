@@ -1698,25 +1698,30 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@primer/behaviors@^1.3.4":
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/@primer/behaviors/-/behaviors-1.3.5.tgz#111eb550675577790cc01b14f3cf720332a2a046"
-  integrity sha512-HWwz+6MrfK5NTWcg9GdKFpMBW/yrAV937oXiw2eDtsd88P3SRwoCt6ZO6QmKp9RP3nDU9cbqmuGZ0xBh0eIFeg==
+"@primer/behaviors@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@primer/behaviors/-/behaviors-1.5.1.tgz#7557482561b1ac33b2cff162bc8be170bea7f58f"
+  integrity sha512-ApPbNhiWPHscs0+rLV76sCY75IEpPvDEZq9+iQXQqU6Tv5SLdax3PmzJlUHftlQ7O/eJnLO1dTEMEwj2Yn1BLA==
 
 "@primer/octicons-react@^19.8.0":
   version "19.8.0"
   resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-19.8.0.tgz#f76ec3b3c0bea0c6ceb147d7f2d989e5f149f7e5"
   integrity sha512-2Z+D7xTloFTLQVRUEbg0pQpe6aTL9RR+8RqBhjkrF+BFuVdM1ENOyjywaGEO7DIkPU5Zxlv0gxSlD85LQxL+sw==
 
-"@primer/primitives@^7.11.11", "@primer/primitives@^7.15.5":
+"@primer/primitives@7.15.3":
+  version "7.15.3"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.15.3.tgz#ff3bb74877bfea2ec3c0780c419f15d32b5f8b53"
+  integrity sha512-BFxFKwa0Bkr+esqbXU5Yt91z/58J2MPoW1cYtp0j2rUYus4lIZnczX7+ZYb7j4BqpfY/88q9Vn+BRwW/Sx4eIA==
+
+"@primer/primitives@^7.15.5":
   version "7.15.5"
   resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.15.5.tgz#7248b10b2dac3572379e6d84377c29570e436778"
   integrity sha512-tiJEMxy5hDi9a3YxgrBeJScLPUQSLuWsKDNuoXXiX7zLzejnYdxXXG3qOaNHzNyyn8TkSQkzmKx0ioaSLR2zNw==
 
-"@primer/react@^36.2.0":
-  version "36.2.0"
-  resolved "https://registry.yarnpkg.com/@primer/react/-/react-36.2.0.tgz#67aa3bf28e86b85ebd22d96909bbbe11abe0b43e"
-  integrity sha512-rLt9C+Yf1mbNxsuwhYFC3W0gi/8iagkfZ1YSeJC64jOUBqOGYY1YBAejE+3E1Hup9MaEkrFS4WLBT2rpzeqVNw==
+"@primer/react@^36.4.0":
+  version "36.4.0"
+  resolved "https://registry.yarnpkg.com/@primer/react/-/react-36.4.0.tgz#32273a4b6778e41bf2c3930bfbfb41f7d0f4f6e9"
+  integrity sha512-bNluyJychKDpkFRD2+2TosrOGQGTmSg7nWD4t2MZc10HWCjiNfn5i+nK20ns5yZ9Nyc0bFhbJd9QcHrhGGYXsA==
   dependencies:
     "@github/combobox-nav" "^2.1.5"
     "@github/markdown-toolbar-element" "^2.1.0"
@@ -1724,9 +1729,9 @@
     "@github/relative-time-element" "^4.1.2"
     "@lit-labs/react" "^1.1.1"
     "@oddbird/popover-polyfill" "^0.3.1"
-    "@primer/behaviors" "^1.3.4"
+    "@primer/behaviors" "^1.5.1"
     "@primer/octicons-react" "^19.8.0"
-    "@primer/primitives" "^7.11.11"
+    "@primer/primitives" "7.15.3"
     "@react-aria/ssr" "^3.5.0"
     "@styled-system/css" "^5.1.5"
     "@styled-system/props" "^5.1.5"
