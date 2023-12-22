@@ -1723,10 +1723,10 @@
   resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.15.5.tgz#7248b10b2dac3572379e6d84377c29570e436778"
   integrity sha512-tiJEMxy5hDi9a3YxgrBeJScLPUQSLuWsKDNuoXXiX7zLzejnYdxXXG3qOaNHzNyyn8TkSQkzmKx0ioaSLR2zNw==
 
-"@primer/react@^36.4.0":
-  version "36.4.0"
-  resolved "https://registry.yarnpkg.com/@primer/react/-/react-36.4.0.tgz#32273a4b6778e41bf2c3930bfbfb41f7d0f4f6e9"
-  integrity sha512-bNluyJychKDpkFRD2+2TosrOGQGTmSg7nWD4t2MZc10HWCjiNfn5i+nK20ns5yZ9Nyc0bFhbJd9QcHrhGGYXsA==
+"@primer/react@^36.5.0":
+  version "36.5.0"
+  resolved "https://registry.yarnpkg.com/@primer/react/-/react-36.5.0.tgz#5fe9853eabdf4850b2a2311a71eaddc7ce9201c3"
+  integrity sha512-7q0PIFDX6mz/uNSiXRAMscSEzfecWzWSJrP6Z3BuZd/VhSuiuXQdx9G9ULugEyiQppXkhIOIqS+IakkXkLtDaQ==
   dependencies:
     "@github/combobox-nav" "^2.1.5"
     "@github/markdown-toolbar-element" "^2.1.0"
@@ -1746,7 +1746,7 @@
     "@types/styled-system__css" "^5.0.16"
     "@types/styled-system__theme-get" "^5.0.1"
     clsx "^1.2.1"
-    color2k "^2.0.0"
+    color2k "^2.0.3"
     deepmerge "^4.2.2"
     focus-visible "^5.2.0"
     fzy.js "^0.4.1"
@@ -3483,10 +3483,10 @@ color-name@~1.1.4:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-color2k@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/color2k/-/color2k-2.0.2.tgz#ac2b4aea11c822a6bcb70c768b5a289f4fffcebb"
-  integrity sha512-kJhwH5nAwb34tmyuqq/lgjEKzlFXn1U99NlnB6Ws4qVaERcRUYeYP1cBw6BJ4vxaWStAUEef4WMr7WjOCnBt8w==
+color2k@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/color2k/-/color2k-2.0.3.tgz#a771244f6b6285541c82aa65ff0a0c624046e533"
+  integrity sha512-zW190nQTIoXcGCaU08DvVNFTmQhUpnJfVuAKfWqUQkflXKpaDdpaYoM0iluLS9lgJNHyBF58KKA2FBEwkD7wog==
 
 colord@^2.9.1:
   version "2.9.3"
