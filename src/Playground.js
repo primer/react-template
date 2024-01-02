@@ -1,4 +1,4 @@
-import { Box, Text, Link, StyledOcticon } from '@primer/react'
+import { Box, Text, Link, Octicon } from '@primer/react'
 import {
     MarkGithubIcon,
     CheckIcon,
@@ -66,11 +66,7 @@ function CodeLine({ icon, iconColor, children }) {
     return (
         <Box sx={{ display: 'flex', color: 'fg.onEmphasis', mb: 2 }}>
             <Box sx={{ display: 'flex', mt: '2px', width: 20, minWidth: 20 }}>
-                <StyledOcticon
-                    icon={icon}
-                    size={16}
-                    sx={{ color: iconColor }}
-                />
+                <Octicon icon={icon} size={16} sx={{ color: iconColor }} />
             </Box>
             <Text
                 as="p"
@@ -86,7 +82,7 @@ function Footer() {
     return (
         <Box sx={{ textAlign: 'center' }}>
             <Box sx={{ mr: 2, display: 'inline-block' }}>
-                <StyledOcticon
+                <Octicon
                     icon={MortarBoardIcon}
                     size={16}
                     sx={{ mr: 1, color: 'attention.fg' }}
