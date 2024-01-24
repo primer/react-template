@@ -1,12 +1,6 @@
-import { Box, Text, Link, Octicon } from '@primer/react'
-import {
-    MarkGithubIcon,
-    CheckIcon,
-    CommentIcon,
-    MortarBoardIcon,
-} from '@primer/octicons-react'
+import { Box, FormControl, TextInput, ActionMenu, ActionList, IconButton } from '@primer/react'
 
-import MonaLoadingImage from './images/mona-loading.gif'
+import { KebabHorizontalIcon, UndoIcon, SyncIcon } from '@primer/octicons-react';
 
 function Playground() {
     /*
@@ -17,84 +11,131 @@ function Playground() {
   */
 
     return (
-        <Box
-            sx={{
-                bg: 'canvas.default',
-                width: '100%',
-                minHeight: '100vh',
+        <Box sx={{display: 'block', width: '100vw', height: '100vh', padding: 6, backgroundColor: 'canvas.default'}}>
+            <Box sx={{
+                borderWidth: 1,
+                borderStyle: 'solid',
+                borderColor: 'border.default',
+                borderRadius: 2,
+                flex: 1,
+                backgroundColor: 'canvas.default',
                 display: 'flex',
                 flexDirection: 'column',
-                justifyContent: 'center',
-                alignItems: 'center',
-                p: 5,
-            }}
-        >
-            <MarkGithubIcon size={24} />
-            <Box
-                sx={{
-                    maxWidth: 600,
-                    width: '100%',
-                    height: 300,
-                    bg: 'neutral.emphasisPlus',
-                    borderRadius: 2,
-                    p: 4,
-                    my: 6,
-                }}
-            >
-                <CodeLine icon={CheckIcon} iconColor="success.fg">
-                    Mona's playground successfully initialised...
-                </CodeLine>
-                <CodeLine icon={CommentIcon} iconColor="accent.fg">
-                    Visit <Text color="text.warning">src/Playground.js</Text>{' '}
-                    and start building your own layouts using Primer.
-                </CodeLine>
-                <Box display="inline-block" ml={3} mt={2}>
-                    <img
-                        src={MonaLoadingImage}
-                        alt="mona"
-                        width={48}
-                        height={48}
-                    />
+                paddingX: 3
+            }}>
+                <Box sx={{
+                    borderBottomWidth: 1,
+                    borderBottomStyle: 'solid',
+                    borderBottomColor: 'border.default',
+                    paddingY: 3,
+                    flex: 1,
+                    display: 'flex',
+                    flexDirection: 'row',
+                    alignItems: 'flex-start'
+                }}>
+                    <FormControl sx={{ display: 'flex', flexDirection: ['column', 'column', 'row', 'row', 'row'], flex: '1'}}>
+                        <Box sx={{flex: '1', paddingRight: 3 }}>
+                            <FormControl.Label>data_sensitivity</FormControl.Label>
+                            <FormControl.Caption>
+                            Level of sensitivity of data processed by this repository once deployed. Refer to our data classification policy for details on determining classification levels.
+                            </FormControl.Caption>
+                        </Box>
+                        <Box sx={{width: ['100%', '275px'], marginTop: [2, 2, 1]}}>
+                            <ActionMenu>
+                                <ActionMenu.Button block alignContent='start'>low (default)</ActionMenu.Button>
+                                <ActionMenu.Overlay width="medium">
+                                <ActionList>
+                                    <ActionList.Item onSelect={() => alert('Copy link clicked')}>
+                                    Copy link
+                                    <ActionList.TrailingVisual>⌘C</ActionList.TrailingVisual>
+                                    </ActionList.Item>
+                                    <ActionList.Item onSelect={() => alert('Quote reply clicked')}>
+                                    Quote reply
+                                    <ActionList.TrailingVisual>⌘Q</ActionList.TrailingVisual>
+                                    </ActionList.Item>
+                                    <ActionList.Item onSelect={() => alert('Edit comment clicked')}>
+                                    Edit comment
+                                    <ActionList.TrailingVisual>⌘E</ActionList.TrailingVisual>
+                                    </ActionList.Item>
+                                    <ActionList.Divider />
+                                    <ActionList.Item
+                                    variant="danger"
+                                    onSelect={() => alert('Delete file clicked')}
+                                    >
+                                    Delete file
+                                    <ActionList.TrailingVisual>⌘D</ActionList.TrailingVisual>
+                                    </ActionList.Item>
+                                </ActionList>
+                                </ActionMenu.Overlay>
+                            </ActionMenu>
+                        </Box>
+                    </FormControl>
+                    <ActionMenu>
+                        <ActionMenu.Anchor sx={{marginLeft: 2, marginTop: 1}}>
+                            <IconButton icon={KebabHorizontalIcon} aria-label="Open menu" size="small" variant="invisible"/>
+                        </ActionMenu.Anchor>
+                        <ActionMenu.Overlay width="medium">
+                        <ActionList>
+                            <ActionList.Item onSelect={() => alert('Copy link clicked')}>
+                                <ActionList.LeadingVisual>
+                                    <UndoIcon />
+                                </ActionList.LeadingVisual>
+                                Undo
+                                <ActionList.TrailingVisual>⌘Z</ActionList.TrailingVisual>
+                            </ActionList.Item>
+                            <ActionList.Item onSelect={() => alert('Quote reply clicked')}>
+                                <ActionList.LeadingVisual>
+                                    <SyncIcon />
+                                </ActionList.LeadingVisual>
+                                Reset to default value
+                            </ActionList.Item>
+                        </ActionList>
+                        </ActionMenu.Overlay>
+                    </ActionMenu>
                 </Box>
-            </Box>
-            <Footer />
-        </Box>
-    )
-}
-
-function CodeLine({ icon, iconColor, children }) {
-    return (
-        <Box sx={{ display: 'flex', color: 'fg.onEmphasis', mb: 2 }}>
-            <Box sx={{ display: 'flex', mt: '2px', width: 20, minWidth: 20 }}>
-                <Octicon icon={icon} size={16} sx={{ color: iconColor }} />
-            </Box>
-            <Text
-                as="p"
-                sx={{ flex: 1, fontSize: 1, fontFamily: 'mono', ml: 2 }}
-            >
-                {children}
-            </Text>
-        </Box>
-    )
-}
-
-function Footer() {
-    return (
-        <Box sx={{ textAlign: 'center' }}>
-            <Box sx={{ mr: 2, display: 'inline-block' }}>
-                <Octicon
-                    icon={MortarBoardIcon}
-                    size={16}
-                    sx={{ mr: 1, color: 'attention.fg' }}
-                />
-                <Text sx={{ color: 'attention.fg' }}>Tip</Text>
-            </Box>
-            <Text>
-                Before you get started check out our{' '}
-                <Link href="https://primer.style/react" target="_blank">
-                    Primer React Documentation
-                </Link>
-            </Text>
+                <Box sx={{
+                    paddingY: 3,
+                    flex: 1,
+                    display: 'flex',
+                    flexDirection: 'row',
+                    alignItems: 'flex-start'
+                }}>
+                    <FormControl sx={{ display: 'flex', flexDirection: ['column', 'column', 'row', 'row', 'row'], flex: '1'}}>
+                        <Box sx={{flex: '1', paddingRight: 3 }}>
+                            <FormControl.Label>cost_center_id</FormControl.Label>
+                            <FormControl.Caption>
+                                The department to which costs may be charged for accounting purposes.
+                            </FormControl.Caption>
+                        </Box>
+                        <Box sx={{width: ['100%', '275px'], marginTop: [2, 2, 1]}}>
+                            <TextInput block validationStatus="error" size="small"/>
+                            <FormControl.Validation variant="error" sx={{marginTop: 1}}>Property values cannot have any spaces</FormControl.Validation>
+                        </Box>
+                    </FormControl>
+                    <ActionMenu>
+                        <ActionMenu.Anchor sx={{marginLeft: 2, marginTop: 1}}>
+                            <IconButton icon={KebabHorizontalIcon} aria-label="Open menu" size="small" variant="invisible"/>
+                        </ActionMenu.Anchor>
+                        <ActionMenu.Overlay width="medium">
+                        <ActionList>
+                            <ActionList.Item onSelect={() => alert('Copy link clicked')}>
+                                <ActionList.LeadingVisual>
+                                    <UndoIcon />
+                                </ActionList.LeadingVisual>
+                                Undo
+                                <ActionList.TrailingVisual>⌘Z</ActionList.TrailingVisual>
+                            </ActionList.Item>
+                            <ActionList.Item onSelect={() => alert('Quote reply clicked')}>
+                                <ActionList.LeadingVisual>
+                                    <SyncIcon />
+                                </ActionList.LeadingVisual>
+                                Reset to default value
+                            </ActionList.Item>
+                        </ActionList>
+                        </ActionMenu.Overlay>
+                    </ActionMenu>
+                </Box>
+            </Box> 
         </Box>
     )
 }
