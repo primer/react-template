@@ -1723,10 +1723,10 @@
   resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.15.9.tgz#aadffde48fa96a0b077e9a5ed61f61a3b9c03958"
   integrity sha512-1dDNxokYV8sP2QDHMaAaEnRTxhYNBznf4QDTe4Gx9VzOXLexRvqrhvRitDbefbyfvO0yPr5TKI2nGCoz5T5zrQ==
 
-"@primer/react@^36.9.0":
-  version "36.9.0"
-  resolved "https://registry.yarnpkg.com/@primer/react/-/react-36.9.0.tgz#3ee31345c7540ad026873bf44c2b23acccc8c438"
-  integrity sha512-MnwyiJtEDDvcvQqVaqAuHlcP1Uluob4+IsHnoX/Y4J+tMQjxWG4s+senFOmNAEHCzrfxzod3fjitxa4pGUfm8g==
+"@primer/react@^36.10.0":
+  version "36.10.0"
+  resolved "https://registry.yarnpkg.com/@primer/react/-/react-36.10.0.tgz#898410cf6224e1934356bf0ee43663bc5d1f8f85"
+  integrity sha512-U9XzpxhbC6Gy9B+T8piRrl4gYB5Mnn8kMzBXKEIdOqjOI37NxVVxbuWzC2tl0rSz3AgUIgIWnLjv3YjDszXxXw==
   dependencies:
     "@github/combobox-nav" "^2.1.5"
     "@github/markdown-toolbar-element" "^2.1.0"
