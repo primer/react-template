@@ -6,7 +6,7 @@
         "@babel/core": "^7.24.0",
         "@babel/plugin-syntax-flow": "^7.14.5",
         "@babel/plugin-transform-react-jsx": "^7.23.4",
-        "@primer/octicons-react": "^19.8.0",
+        "@primer/octicons-react": "^19.9.0",
         "@primer/primitives": "^7.15.9",
         "@primer/react": "^36.10.0",
         "eslint": "^8.57.0",
