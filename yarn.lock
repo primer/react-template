@@ -1360,6 +1360,11 @@
   resolved "https://registry.yarnpkg.com/@github/relative-time-element/-/relative-time-element-4.3.0.tgz#3cb90ffbbe9a82c7242bdd9d54f2d74d555547cf"
   integrity sha512-+tFjX9//HRS1HnBa5cNgfEtE52arwiutYg1TOF+Trk40SPxst9Q8Rtc3BKD6aKsvfbtub68vfhipgchGjj9o7g==
 
+"@github/tab-container-element@4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@github/tab-container-element/-/tab-container-element-4.5.0.tgz#c64edac85a442ee95d0f59fbc3404f1c946f087c"
+  integrity sha512-8pzFJVg7AyPFqOjKFoiHwVQbo4MdTPpUfQwW91Hgj+OOvySZVmw4PU8ejU4qTHbb2oA2ajYMRuXuAvhfMgnS1Q==
+
 "@humanwhocodes/config-array@^0.11.14":
   version "0.11.14"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.14.tgz#d78e481a039f7566ecc9660b4ea7fe6b1fec442b"
@@ -1650,10 +1655,15 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
-"@lit-labs/react@^1.1.1":
+"@lit-labs/react@1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@lit-labs/react/-/react-1.2.1.tgz#5b421502cdf68a3639dec431318eeed2285f1c0e"
   integrity sha512-DiZdJYFU0tBbdQkfwwRSwYyI/mcWkg3sWesKRsHUd4G+NekTmmeq9fzsurvcKTNVa0comNljwtg4Hvi1ds3V+A==
+
+"@lit-labs/ssr-dom-shim@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@lit-labs/ssr-dom-shim/-/ssr-dom-shim-1.2.0.tgz#353ce4a76c83fadec272ea5674ede767650762fd"
+  integrity sha512-yWJKmpGE6lUURKAaIltoPIE/wrbY3TEkqQt+X0m+7fQNnAv0keydnYvbiJFP1PnMhizmIWRWOG5KLhYyc/xl+g==
 
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
   version "5.1.1-v1"
@@ -1708,36 +1718,39 @@
   resolved "https://registry.yarnpkg.com/@primer/behaviors/-/behaviors-1.5.1.tgz#7557482561b1ac33b2cff162bc8be170bea7f58f"
   integrity sha512-ApPbNhiWPHscs0+rLV76sCY75IEpPvDEZq9+iQXQqU6Tv5SLdax3PmzJlUHftlQ7O/eJnLO1dTEMEwj2Yn1BLA==
 
-"@primer/octicons-react@^19.8.0":
-  version "19.8.0"
-  resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-19.8.0.tgz#f76ec3b3c0bea0c6ceb147d7f2d989e5f149f7e5"
-  integrity sha512-2Z+D7xTloFTLQVRUEbg0pQpe6aTL9RR+8RqBhjkrF+BFuVdM1ENOyjywaGEO7DIkPU5Zxlv0gxSlD85LQxL+sw==
+"@primer/live-region-element@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@primer/live-region-element/-/live-region-element-0.2.0.tgz#8ffa72a321fa839f820c08a48fb511062ab1f6cc"
+  integrity sha512-3zE1ipoMMxdmAkgB49dX+CIVpIXCGQGYwq5EF4kUIcMLjE4nAUOWkEMlcTCrDAlvfrv71YRx+h+AjRX70urLRg==
+  dependencies:
+    "@lit-labs/ssr-dom-shim" "^1.2.0"
 
-"@primer/primitives@7.15.3":
-  version "7.15.3"
-  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.15.3.tgz#ff3bb74877bfea2ec3c0780c419f15d32b5f8b53"
-  integrity sha512-BFxFKwa0Bkr+esqbXU5Yt91z/58J2MPoW1cYtp0j2rUYus4lIZnczX7+ZYb7j4BqpfY/88q9Vn+BRwW/Sx4eIA==
+"@primer/octicons-react@^19.8.0", "@primer/octicons-react@^19.9.0":
+  version "19.9.0"
+  resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-19.9.0.tgz#eb90a9b47da924c0ab33055d050e6ea21104d219"
+  integrity sha512-Uk4XrHyfylyfzZN9d8VFjF8FpfYHEyT4sabw+9+oP+GWAJHhPvNPTz6gXvUzJZmoblAvgcTrDslIPjz8zMh76w==
 
-"@primer/primitives@^7.15.9":
-  version "7.15.9"
-  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.15.9.tgz#aadffde48fa96a0b077e9a5ed61f61a3b9c03958"
-  integrity sha512-1dDNxokYV8sP2QDHMaAaEnRTxhYNBznf4QDTe4Gx9VzOXLexRvqrhvRitDbefbyfvO0yPr5TKI2nGCoz5T5zrQ==
+"@primer/primitives@^7.15.14", "@primer/primitives@^7.15.9":
+  version "7.15.15"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.15.15.tgz#11c84e55d936a5509edc37a8ce6a29f9033026a0"
+  integrity sha512-K9fPgKVBtdmBMl+lHKUK4ctsRf+DUUKdJYEHnFhkua71m9FORK16ycJ4gHDpc4g/0xgNvEwQ9/ArsV1i8w3ZmQ==
 
-"@primer/react@^36.10.0":
-  version "36.10.0"
-  resolved "https://registry.yarnpkg.com/@primer/react/-/react-36.10.0.tgz#898410cf6224e1934356bf0ee43663bc5d1f8f85"
-  integrity sha512-U9XzpxhbC6Gy9B+T8piRrl4gYB5Mnn8kMzBXKEIdOqjOI37NxVVxbuWzC2tl0rSz3AgUIgIWnLjv3YjDszXxXw==
+"@primer/react@^36.13.0":
+  version "36.13.0"
+  resolved "https://registry.yarnpkg.com/@primer/react/-/react-36.13.0.tgz#168c2f982df195999be367763de74582f22bfec1"
+  integrity sha512-SBpqU+jTTGF2ezOKjA9R+7+zlxYlaO/VgchMzSBlXT5DooGM0/FD+t/njTavyl4KNrZyFkVU1Q/SrsiYQTmmVg==
   dependencies:
     "@github/combobox-nav" "^2.1.5"
     "@github/markdown-toolbar-element" "^2.1.0"
     "@github/paste-markdown" "^1.4.0"
     "@github/relative-time-element" "^4.1.2"
-    "@lit-labs/react" "^1.1.1"
+    "@github/tab-container-element" "4.5.0"
+    "@lit-labs/react" "1.2.1"
     "@oddbird/popover-polyfill" "^0.3.1"
     "@primer/behaviors" "^1.5.1"
-    "@primer/octicons-react" "^19.8.0"
-    "@primer/primitives" "7.15.3"
-    "@react-aria/ssr" "^3.5.0"
+    "@primer/live-region-element" "^0.2.0"
+    "@primer/octicons-react" "^19.9.0"
+    "@primer/primitives" "^7.15.14"
     "@styled-system/css" "^5.1.5"
     "@styled-system/props" "^5.1.5"
     "@styled-system/theme-get" "^5.1.2"
@@ -1757,13 +1770,6 @@
     react-is "^18.2.0"
     react-markdown "8.0.7"
     styled-system "^5.1.5"
-
-"@react-aria/ssr@^3.5.0":
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/@react-aria/ssr/-/ssr-3.7.1.tgz#11d0fac17e50028459aad325c2d093dbb2960f68"
-  integrity sha512-ovVPSD1WlRpZHt7GI9DqJrWG3OIYS+NXQ9y5HIewMJpSe+jPQmMQfyRmgX4EnvmxSlp0u04Wg/7oItcoSIb/RA==
-  dependencies:
-    "@swc/helpers" "^0.5.0"
 
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
@@ -2042,13 +2048,6 @@
     "@svgr/plugin-jsx" "^5.5.0"
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
-
-"@swc/helpers@^0.5.0":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.5.1.tgz#e9031491aa3f26bfcc974a67f48bd456c8a5357a"
-  integrity sha512-sJ902EfIzn1Fa+qYmjdQqh8tPsoxyBz+8yBKC2HKUxyezKJFwPGOn7pv4WY6QuQW//ySQi5lJjA/ZT9sNWWNTg==
-  dependencies:
-    tslib "^2.4.0"
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -9333,7 +9332,7 @@ tslib@^1.8.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.0.3, tslib@^2.4.0:
+tslib@^2.0.3:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
