@@ -1730,10 +1730,10 @@
   resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-19.9.0.tgz#eb90a9b47da924c0ab33055d050e6ea21104d219"
   integrity sha512-Uk4XrHyfylyfzZN9d8VFjF8FpfYHEyT4sabw+9+oP+GWAJHhPvNPTz6gXvUzJZmoblAvgcTrDslIPjz8zMh76w==
 
-"@primer/primitives@^7.15.14", "@primer/primitives@^7.15.9":
-  version "7.15.15"
-  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.15.15.tgz#11c84e55d936a5509edc37a8ce6a29f9033026a0"
-  integrity sha512-K9fPgKVBtdmBMl+lHKUK4ctsRf+DUUKdJYEHnFhkua71m9FORK16ycJ4gHDpc4g/0xgNvEwQ9/ArsV1i8w3ZmQ==
+"@primer/primitives@^7.15.14", "@primer/primitives@^7.16.0":
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.16.0.tgz#29fc2f3e985000d0f1a44aa0d468e9cee8a41dd1"
+  integrity sha512-/3lNloWONQMiasMAmJl5b85tP86e4uElU1d+kQQOBoVoXttni98DEigqQrKgIdwWaEcbp43IU2ks/9EZdwM2XA==
 
 "@primer/react@^36.13.0":
   version "36.13.0"
