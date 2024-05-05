@@ -20,30 +20,37 @@ function Playground() {
 
     return (
         <div className={styles.page}>
-            <MarkGithubIcon size={24} />
-            <ul className={styles.terminal}>
-                <CodeLine
-                    icon={CheckIcon}
-                    iconColor="var(--display-green-fgColor)"
-                >
-                    Mona's playground successfully initialised...
-                </CodeLine>
-                <CodeLine
-                    icon={CommentIcon}
-                    iconColor="var(--display-blue-fgColor)"
-                >
-                    Visit <Text color="text.warning">src/Playground.js</Text>{' '}
-                    and start building your own layouts using Primer.
-                </CodeLine>
-                <li className={styles.loader}>
-                    <img
-                        src={MonaLoadingImage}
-                        alt="Loading animation"
-                        width={48}
-                        height={48}
-                    />
-                </li>
-            </ul>
+            <header>
+                <MarkGithubIcon size={24} />
+            </header>
+            <main>
+                <ul className={styles.terminal}>
+                    <CodeLine
+                        icon={CheckIcon}
+                        iconColor="var(--fgColor-success)"
+                    >
+                        Mona's playground successfully initialised...
+                    </CodeLine>
+                    <CodeLine
+                        icon={CommentIcon}
+                        iconColor="var(--fgColor-accent)"
+                    >
+                        Visit{' '}
+                        <span className={styles.fileName}>
+                            src/Playground.js
+                        </span>{' '}
+                        and start building your own layouts using Primer.
+                    </CodeLine>
+                    <li className={styles.loader}>
+                        <img
+                            src={MonaLoadingImage}
+                            alt="Loading animation"
+                            width={48}
+                            height={48}
+                        />
+                    </li>
+                </ul>
+            </main>
             <Footer />
         </div>
     )
@@ -71,12 +78,12 @@ function Footer() {
                 />
                 <span>Tip</span>
             </div>
-            <Text>
+            <span>
                 Before you get started check out our{' '}
                 <Link href="https://primer.style/guides/react" target="_blank">
                     Primer React Documentation
                 </Link>
-            </Text>
+            </span>
         </footer>
     )
 }

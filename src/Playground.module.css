@@ -20,7 +20,7 @@
     max-width: 600px;
     width: 100%;
     height: 300px;
-    background: var(--bgColor-neutral-emphasis);
+    background: var(--bgColor-emphasis);
     border-radius: var(--borderRadius-medium);
     padding: var(--base-size-20);
     margin-top: var(--base-size-28);
@@ -51,6 +51,10 @@
     display: inline-block;
     margin-left: var(--base-size-12);
     margin-top: var(--base-size-8);
+}
+
+.fileName {
+    color: var(--fgColor-attention);
 }
 
 .footer {
