@@ -1762,10 +1762,10 @@
   resolved "https://registry.yarnpkg.com/@primer/behaviors/-/behaviors-1.5.1.tgz#7557482561b1ac33b2cff162bc8be170bea7f58f"
   integrity sha512-ApPbNhiWPHscs0+rLV76sCY75IEpPvDEZq9+iQXQqU6Tv5SLdax3PmzJlUHftlQ7O/eJnLO1dTEMEwj2Yn1BLA==
 
-"@primer/live-region-element@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@primer/live-region-element/-/live-region-element-0.2.0.tgz#8ffa72a321fa839f820c08a48fb511062ab1f6cc"
-  integrity sha512-3zE1ipoMMxdmAkgB49dX+CIVpIXCGQGYwq5EF4kUIcMLjE4nAUOWkEMlcTCrDAlvfrv71YRx+h+AjRX70urLRg==
+"@primer/live-region-element@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@primer/live-region-element/-/live-region-element-0.6.1.tgz#6ff8c5974a07a43ee54c9d3b681c368a6ce21364"
+  integrity sha512-UvJ29igIhOzCfPgUJHPKgr2bY84niHYZagE2LC90ewXQfEFLC3q3ug+vYOzOpCqxspCvEpwPyQlnaOLu4mu87w==
   dependencies:
     "@lit-labs/ssr-dom-shim" "^1.2.0"
 
@@ -1774,15 +1774,20 @@
   resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-19.9.0.tgz#eb90a9b47da924c0ab33055d050e6ea21104d219"
   integrity sha512-Uk4XrHyfylyfzZN9d8VFjF8FpfYHEyT4sabw+9+oP+GWAJHhPvNPTz6gXvUzJZmoblAvgcTrDslIPjz8zMh76w==
 
-"@primer/primitives@^7.15.14", "@primer/primitives@^7.17.0":
-  version "7.17.0"
-  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.17.0.tgz#a9d08acd545c885e647e54ffe45dbdb4f424d324"
-  integrity sha512-IlfBmMElmUbnQ4LIXSD2QLkty7akaNNQim9ofOjlE+LiVCwvxOuMEyZXVi9bm3hWLDszKyJ5mDLHKRuiY1/P+w==
+"@primer/primitives@^7.16.0":
+  version "7.17.1"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.17.1.tgz#05eefa91d2a05608104a006288a3478d97104a67"
+  integrity sha512-SiPzEb+up1nDpV2NGwNiY8m6sGnF3OUqRb0has5s6T40vq6Li/g3cYVgl+oolEa4DUoNygEPs09jwJt24f/3zg==
 
-"@primer/react@^36.13.0":
-  version "36.13.0"
-  resolved "https://registry.yarnpkg.com/@primer/react/-/react-36.13.0.tgz#168c2f982df195999be367763de74582f22bfec1"
-  integrity sha512-SBpqU+jTTGF2ezOKjA9R+7+zlxYlaO/VgchMzSBlXT5DooGM0/FD+t/njTavyl4KNrZyFkVU1Q/SrsiYQTmmVg==
+"@primer/primitives@^8.1.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-8.1.0.tgz#b0fddc88ff132432095fa7ed755d5bfeffead881"
+  integrity sha512-WixqDhIJHmQJD82JMmSwM9/LGkrA3HxNUgkkm4xubUY68il2ny7xYw5Jk8W2MwjTOyHHQ3hg9JaNV+BqVJ7N5A==
+
+"@primer/react@^36.18.0":
+  version "36.18.0"
+  resolved "https://registry.yarnpkg.com/@primer/react/-/react-36.18.0.tgz#0a639722dfafae0a4f3de653473900460e10a121"
+  integrity sha512-Ce6AGeldnkU0ysRnjcqRx+3O5XqjYwlVY24rkdwZhXfgQkaTDz+gXlLJzWb8nIBrohqb4AAB8zQb4oIlQThq7A==
   dependencies:
     "@github/combobox-nav" "^2.1.5"
     "@github/markdown-toolbar-element" "^2.1.0"
@@ -1792,9 +1797,9 @@
     "@lit-labs/react" "1.2.1"
     "@oddbird/popover-polyfill" "^0.3.1"
     "@primer/behaviors" "^1.5.1"
-    "@primer/live-region-element" "^0.2.0"
+    "@primer/live-region-element" "^0.6.1"
     "@primer/octicons-react" "^19.9.0"
-    "@primer/primitives" "^7.15.14"
+    "@primer/primitives" "^7.16.0"
     "@styled-system/css" "^5.1.5"
     "@styled-system/props" "^5.1.5"
     "@styled-system/theme-get" "^5.1.2"
