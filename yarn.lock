@@ -1779,10 +1779,10 @@
   resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.17.1.tgz#05eefa91d2a05608104a006288a3478d97104a67"
   integrity sha512-SiPzEb+up1nDpV2NGwNiY8m6sGnF3OUqRb0has5s6T40vq6Li/g3cYVgl+oolEa4DUoNygEPs09jwJt24f/3zg==
 
-"@primer/primitives@^8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-8.1.0.tgz#b0fddc88ff132432095fa7ed755d5bfeffead881"
-  integrity sha512-WixqDhIJHmQJD82JMmSwM9/LGkrA3HxNUgkkm4xubUY68il2ny7xYw5Jk8W2MwjTOyHHQ3hg9JaNV+BqVJ7N5A==
+"@primer/primitives@^8.2.1":
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-8.2.1.tgz#54f83cc424ab45da9c86d7014c02fc478d02253b"
+  integrity sha512-lgdTWoYAZV5RkFnsA5lg8eh+3Ca2xNaY2Kxon31boujkc5pgfWuTGKVQjLnbI+Cqlv94wUVzvhcMYXUwX6aYpw==
 
 "@primer/react@^36.18.0":
   version "36.18.0"
