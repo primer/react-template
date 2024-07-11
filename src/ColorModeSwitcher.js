@@ -49,7 +49,7 @@ function ColorModeSwitcher() {
             <Box
                 sx={{
                     position: 'relative',
-                    dispaly: 'flex',
+                    display: 'flex',
                     justifyContent: 'flex-end',
                 }}
             >
