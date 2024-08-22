@@ -1751,10 +1751,10 @@
   resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.17.1.tgz#05eefa91d2a05608104a006288a3478d97104a67"
   integrity sha512-SiPzEb+up1nDpV2NGwNiY8m6sGnF3OUqRb0has5s6T40vq6Li/g3cYVgl+oolEa4DUoNygEPs09jwJt24f/3zg==
 
-"@primer/primitives@^8.2.3":
-  version "8.2.3"
-  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-8.2.3.tgz#e968ccdbfffb5e4f097b857bcf54c244e8eb68c4"
-  integrity sha512-K8A/DA6xv8P/kD/9DupFn+KYlo06OpcrwfwJf+sKp+KnX7ZRwLLDg1AaEGAoRoaykXRY/gfrXlgDfK7laOTWyA==
+"@primer/primitives@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-9.0.0.tgz#6f48b5c77648a6cee62812bd99db67eadd798278"
+  integrity sha512-RsY0p7YRjGz9cF/1hx6u+guK9xcmvGahJ+t32gvtiqQnm1oXwDXXow4IQVbkyyxFLYKVGVIOZIFHJtUPDvH7Ag==
 
 "@primer/react@^36.27.0":
   version "36.27.0"
