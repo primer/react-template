@@ -1,10 +1,10 @@
-import { useTheme, ActionMenu, ActionList, Box } from '@primer/react'
-import { SunIcon, MoonIcon } from '@primer/octicons-react'
+import { MoonIcon, SunIcon } from '@primer/octicons-react'
+import { ActionList, ActionMenu, Box, useTheme } from '@primer/react'
 
-function ColorModeSwitcher() {
+const ColorModeSwitcher = () => {
     const { setDayScheme, setNightScheme, colorScheme } = useTheme()
 
-    const setScheme = (schemeValue) => {
+    const setScheme = (schemeValue: string) => {
         setDayScheme(schemeValue)
         setNightScheme(schemeValue)
     }
@@ -55,19 +55,22 @@ function ColorModeSwitcher() {
             >
                 <ActionMenu>
                     <ActionMenu.Button size="small">
-                        <current.icon />
-                        <Box sx={{ display: 'inline-block', ml: 2 }}>
-                            {' '}
-                            {current.name}
-                        </Box>
+                        {current && (
+                            <>
+                                <current.icon />
+                                <Box sx={{ display: 'inline-block', ml: 2 }}>
+                                    {' '}
+                                    {current.name}
+                                </Box>
+                            </>
+                        )}
                     </ActionMenu.Button>
-                    <ActionMenu.Overlay align="right">
+                    <ActionMenu.Overlay align="end">
                         <ActionList showDividers>
                             <ActionList.Group selectionVariant="single">
                                 {schemes.map((scheme) => (
                                     <ActionList.Item
                                         key={scheme.value}
-                                        href="#"
                                         selected={scheme.value === colorScheme}
                                         onSelect={() => setScheme(scheme.value)}
                                     >

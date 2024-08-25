@@ -1,14 +1,21 @@
-import { Box, Text, Link, Octicon } from '@primer/react'
 import {
-    MarkGithubIcon,
     CheckIcon,
     CommentIcon,
+    Icon,
+    MarkGithubIcon,
     MortarBoardIcon,
 } from '@primer/octicons-react'
+import { Box, Link, Octicon, Text } from '@primer/react'
 
+import { PropsWithChildren } from 'react'
 import MonaLoadingImage from './images/mona-loading.gif'
 
-function Playground() {
+interface CodeLineProps extends PropsWithChildren {
+    icon: Icon
+    iconColor: string
+}
+
+const Playground = () => {
     /*
     WELCOME TO MONA's 😽🐙 PLAYGROUND
     Delete everything in here or play with the existing Mona playground code to get familiar with Primer React.
@@ -62,7 +69,7 @@ function Playground() {
     )
 }
 
-function CodeLine({ icon, iconColor, children }) {
+const CodeLine = ({ icon, iconColor, children }: CodeLineProps) => {
     return (
         <Box sx={{ display: 'flex', color: 'fg.onEmphasis', mb: 2 }}>
             <Box sx={{ display: 'flex', mt: '2px', width: 20, minWidth: 20 }}>
@@ -78,7 +85,7 @@ function CodeLine({ icon, iconColor, children }) {
     )
 }
 
-function Footer() {
+const Footer = () => {
     return (
         <Box sx={{ textAlign: 'center' }}>
             <Box sx={{ mr: 2, display: 'inline-block' }}>

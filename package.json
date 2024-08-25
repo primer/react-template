@@ -2,6 +2,7 @@
     "name": "primer-react-template",
     "version": "0.1.0",
     "private": true,
+    "type": "module",
     "dependencies": {
         "@babel/core": "^7.25.2",
         "@babel/plugin-syntax-flow": "^7.24.7",
@@ -17,13 +18,23 @@
         "web-vitals": "^4.2.1"
     },
     "devDependencies": {
+        "@types/node": "^22.5.0",
+        "@types/react": "^18.3.4",
+        "@types/react-dom": "^18.3.0",
         "eslint-config-react-app": "^7.0.1",
-        "react-scripts": "^5.0.1"
+        "eslint-plugin-react-hooks": "^5.1.0-rc-fb9a90fa48-20240614",
+        "eslint-plugin-react-refresh": "^0.4.9",
+        "globals": "^15.9.0",
+        "react-scripts": "^5.0.1",
+        "typescript": "^5.5.4",
+        "typescript-eslint": "^8.1.0"
     },
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "lint": "eslint .",
+        "type-check": "tsc --noEmit"
     },
     "eslintConfig": {
         "extends": [
