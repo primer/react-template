@@ -1727,6 +1727,13 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
+"@prettier/sync@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@prettier/sync/-/sync-0.5.2.tgz#f8401e45b667e8d6207015fd03619ea2c2e3e680"
+  integrity sha512-Yb569su456XNx5BsH/Vyem7xD6g/y9iLmLUzRKM1a/dhU/D7HqqvkAG72znulXlMXztbV0iiu9O5AL8K98TzZQ==
+  dependencies:
+    make-synchronized "^0.2.8"
+
 "@primer/behaviors@^1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@primer/behaviors/-/behaviors-1.7.0.tgz#6bc2491f38950c05ab89997a01aa52edc2539b64"
@@ -1751,10 +1758,13 @@
   resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.17.1.tgz#05eefa91d2a05608104a006288a3478d97104a67"
   integrity sha512-SiPzEb+up1nDpV2NGwNiY8m6sGnF3OUqRb0has5s6T40vq6Li/g3cYVgl+oolEa4DUoNygEPs09jwJt24f/3zg==
 
-"@primer/primitives@^8.2.3":
-  version "8.2.3"
-  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-8.2.3.tgz#e968ccdbfffb5e4f097b857bcf54c244e8eb68c4"
-  integrity sha512-K8A/DA6xv8P/kD/9DupFn+KYlo06OpcrwfwJf+sKp+KnX7ZRwLLDg1AaEGAoRoaykXRY/gfrXlgDfK7laOTWyA==
+"@primer/primitives@^9.1.1":
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-9.1.1.tgz#3ea42bd83ff8013912b08a6702211555532e7d00"
+  integrity sha512-c8PjLIG+houvCRg9bKza3gj/VoM2QZcN7TqYRa4dl5ZYd1A+BOSvAenjGhVVK23ws8uZSVPYDuvdQk1PO1jm1A==
+  dependencies:
+    "@prettier/sync" "^0.5.2"
+    prettier "3.3"
 
 "@primer/react@^36.27.0":
   version "36.27.0"
@@ -6604,6 +6614,11 @@ make-dir@^4.0.0:
   dependencies:
     semver "^7.5.3"
 
+make-synchronized@^0.2.8:
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/make-synchronized/-/make-synchronized-0.2.9.tgz#edcbe2d8e7aeac8e0f41a0bb25b05cc7a7e2e8e4"
+  integrity sha512-4wczOs8SLuEdpEvp3vGo83wh8rjJ78UsIk7DIX5fxdfmfMJGog4bQzxfvOwq7Q3yCHLC4jp1urPHIxRS/A93gA==
+
 makeerror@1.0.12:
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/makeerror/-/makeerror-1.0.12.tgz#3e5dd2079a82e812e983cc6610c4a2cb0eaa801a"
@@ -7963,6 +7978,11 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
+
+prettier@3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.3.3.tgz#30c54fe0be0d8d12e6ae61dbb10109ea00d53105"
+  integrity sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==
 
 pretty-bytes@^5.3.0, pretty-bytes@^5.4.1:
   version "5.6.0"
