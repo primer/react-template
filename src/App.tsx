@@ -1,8 +1,9 @@
-import { ThemeProvider, BaseStyles } from '@primer/react'
+import { BaseStyles, ThemeProvider } from '@primer/react'
 
-import Playground from './Playground'
 import ColorModeSwitcher from './ColorModeSwitcher'
-function App() {
+import Playground from './Playground'
+
+const App = () => {
     return (
         <ThemeProvider colorMode="auto">
             <BaseStyles>
