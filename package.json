@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "@babel/core": "^7.25.2",
+        "@babel/core": "^7.25.7",
         "@babel/plugin-syntax-flow": "^7.24.7",
         "@babel/plugin-transform-react-jsx": "^7.24.7",
         "@primer/octicons-react": "^19.11.0",
