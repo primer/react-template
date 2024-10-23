@@ -14,7 +14,7 @@
         "react-dom": "^18.3.1",
         "react-is": "^18.3.1",
         "styled-components": "^5.3.8",
-        "web-vitals": "^4.2.1"
+        "web-vitals": "^4.2.4"
     },
     "devDependencies": {
         "eslint-config-react-app": "^7.0.1",
