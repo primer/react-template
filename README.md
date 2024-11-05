@@ -24,7 +24,7 @@ https://user-images.githubusercontent.com/980622/135662854-946e5d2d-b6d1-4cbf-a7
 4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 5. Go to `src/Playground.js` to start prototyping.
 
-(For GitHub staff only) Check out this talk (9 minutes 30 seconds) from @heyamie for more tips on [prototyping with Primer React](https://github.rewatch.com/video/sniwdhyn3qqcvjsq-prototyping-with-primer-react-lightning-talk).
+Check out this talk (9 minutes 26 seconds) from [@heyamie](https://github.com/heyamie) for more tips on [prototyping with Primer React](https://www.youtube.com/watch?v=XroAmpITjsI).
 
 ## 10 reasons why this is great
 
