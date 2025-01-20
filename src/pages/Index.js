@@ -28,7 +28,7 @@ function Settings() {
                 }}
             >
                 <CodeLine icon={CheckIcon} iconColor="success.fg">
-                    This is the settings page!
+                    This is the index page!
                 </CodeLine>
             </Box>
         </Box>
