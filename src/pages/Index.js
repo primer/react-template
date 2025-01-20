@@ -5,7 +5,7 @@ import CodeBox from '../components/CodeBox.jsx'
 function Settings() {
     return (
       <CodeBox>
-          This is the index page
+          This is the code page
       </CodeBox>
     )
 }

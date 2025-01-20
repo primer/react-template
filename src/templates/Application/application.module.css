@@ -9,6 +9,8 @@
   border-inline-end: 1px solid var(--borderColor-default)
 }
 
+
+/* Override to fix a broken hover state on the Sidebar Navigation component */
 [data-component="ActionList.Item--DividerContainer"]:hover,
 [data-component="ActionList.Item--DividerContainer"] *:hover {
   background-color: transparent !important;
