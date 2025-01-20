@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { ThemeProvider, BaseStyles } from '@primer/react'
 import Playground from './pages/Playground.js'
 import Settings from './pages/Settings.js'
@@ -9,13 +9,13 @@ function App() {
     return (
       <ThemeProvider colorMode="auto">
           <BaseStyles>
-          <BrowserRouter>
+          <HashRouter>
                   <AppHeader />
                   <Routes>
                       <Route path="/" element={<Playground />} />
                       <Route path="/settings" element={<Settings />} />
                   </Routes>
-              </BrowserRouter>
+              </HashRouter>
           </BaseStyles>
       </ThemeProvider>
     )

@@ -1,5 +1,6 @@
 {
     "name": "primer-react-template",
+    "homepage": "https://github.github.io/primer-react-app",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -25,7 +26,8 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "eject": "react-scripts eject",
-        "deploy": "rm -rf docs && react-scripts build && mv build docs && git add -A && git commit -m \"Build commit\" && git push && gh-pages -d docs"
+        "preview": "yarn build && rm -rf docs && mv build docs && http-server docs",        
+        "deploy": "rm -rf docs && yarn build && mv build docs && git add -A && git commit -m \"Build commit\" && git push"
     },
     "eslintConfig": {
         "extends": [
