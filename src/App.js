@@ -1,6 +1,6 @@
 import { HashRouter, Routes, Route } from 'react-router-dom'
 import { ThemeProvider, BaseStyles } from '@primer/react'
-import Application from './templates/Application.js'
+import Application from './templates/Application/Application.js'
 import Index from './pages/Index.js'
 import Settings from './pages/Settings.js'
 import "./globals.css";
