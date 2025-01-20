@@ -6,9 +6,9 @@ import {
     MortarBoardIcon,
 } from '@primer/octicons-react'
 
-import MonaLoadingImage from './images/mona-loading.gif'
+import MonaLoadingImage from '../images/mona-loading.gif'
 
-function Playground() {
+function Settings() {
     /*
     WELCOME TO MONA's 😽🐙 PLAYGROUND
     Delete everything in here or play with the existing Mona playground code to get familiar with Primer React.
@@ -42,7 +42,7 @@ function Playground() {
                 }}
             >
                 <CodeLine icon={CheckIcon} iconColor="success.fg">
-                    Mona's playground successfully initialised...
+                    This is the settings page!
                 </CodeLine>
                 <CodeLine icon={CommentIcon} iconColor="accent.fg">
                     Visit <Text color="text.warning">src/Playground.js</Text>{' '}
@@ -99,4 +99,4 @@ function Footer() {
     )
 }
 
-export default Playground
+export default Settings
