@@ -3,10 +3,10 @@ import { ThemeProvider, BaseStyles } from '@primer/react'
 import Code from './pages/Code.jsx'
 import Issues from './pages/Issues.jsx'
 import "./globals.css";
-
+import {useTheme} from '@primer/react'
 function App() {
     return (
-      <ThemeProvider colorMode="auto">
+      <ThemeProvider colorMode="night" nightScheme="dark_dimmed">
           <BaseStyles>
           <HashRouter>
                     <Routes>

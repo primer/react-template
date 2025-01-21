@@ -10,6 +10,11 @@
   border-inline-end: 1px solid var(--borderColor-default)
 }
 
+.main {
+  display: flex;
+  padding: var(--base-size-16)
+}
+
 
 /* Override to fix a broken hover state on the Sidebar Navigation component */
 [data-component="ActionList.Item--DividerContainer"]:hover,
