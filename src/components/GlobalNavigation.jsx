@@ -23,8 +23,7 @@ const defaultNav = [
   { icon: GraphIcon, label: 'Insights' }
 ];
 
-export default function GlobalNavigation({ items, title, subtitle }) {
-  const resolvedNav = items ? items : defaultNav
+export default function GlobalNavigation({ items = defaultNav, title, subtitle }) {
   return (
     <Box as="header" sx={{bg: 'canvas.inset', width: '100%', maxWidth: '100%'}}>
       <Box
@@ -52,7 +51,7 @@ export default function GlobalNavigation({ items, title, subtitle }) {
         </Box>
       </Box>
       <UnderlineNav aria-label="Repository">
-        {resolvedNav.map((item) => (
+        {items.map((item) => (
           <UnderlineNav.Item 
             key={item.label}
             icon={item.icon}

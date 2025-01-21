@@ -1,8 +1,7 @@
 import { HashRouter, Routes, Route } from 'react-router-dom'
 import { ThemeProvider, BaseStyles } from '@primer/react'
-import Application from './templates/Application/Application.jsx'
-import Index from './pages/Index.jsx'
-import Settings from './pages/Settings.jsx'
+import Code from './pages/Code.jsx'
+import Issues from './pages/Issues.jsx'
 import "./globals.css";
 
 function App() {
@@ -10,12 +9,10 @@ function App() {
       <ThemeProvider colorMode="auto">
           <BaseStyles>
           <HashRouter>
-                  <Application>
                     <Routes>
-                        <Route path="/" element={<Index />} />
-                        <Route path="/settings" element={<Settings />} />
+                        <Route path="/" element={<Code />} />
+                        <Route path="/issues" element={<Issues />} />
                     </Routes>
-                  </Application>
               </HashRouter>
           </BaseStyles>
       </ThemeProvider>

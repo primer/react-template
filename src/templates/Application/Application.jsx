@@ -1,40 +1,19 @@
 import React from 'react'
 import GlobalNavigation from '../../components/GlobalNavigation.jsx'
 import SidebarNavigation from '../../components/SidebarNavigation.jsx'
-import {
-  IssueOpenedIcon,
-  ThreeBarsIcon,
-  CodeIcon,
-  GitPullRequestIcon,
-  CommentDiscussionIcon,
-  ShieldIcon,
-  PlayIcon,
-  ProjectIcon,
-  GraphIcon,
-  MarkGithubIcon,
-} from '@primer/octicons-react'
 
 import styles from "./application.module.css";
 
-const nav = [
-  { icon: CodeIcon, label: 'Code', current: true, url: '/' },
-  { icon: IssueOpenedIcon, label: 'Issues', counter: 10, url: '#settings' },
-  { icon: GitPullRequestIcon, label: 'Pull Requests', counter: 3 },
-  { icon: CommentDiscussionIcon, label: 'Discussions' },
-  { icon: PlayIcon, label: 'Actions' },
-  { icon: ProjectIcon, label: 'Projects', counter: 7 },
-  { icon: ShieldIcon, label: 'Security', counter: 12 },
-  { icon: GraphIcon, label: 'Insights' }
-];
-
-function Application({ children }) {
+function Application({ children, title, subtitle, topnav, sidenav }) {
     return (
       <>
-      <GlobalNavigation title="primer" subtitle="react" items={nav} />
+      <GlobalNavigation title={title} subtitle={subtitle} items={topnav} />
       <div className={styles.wrapper}>
+      {sidenav &&
         <aside className={styles.navigation}>
-          <SidebarNavigation />
+           <SidebarNavigation sidenav={sidenav} />
         </aside>
+      }
         <main>
           {children}
         </main>
