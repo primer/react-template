@@ -25,8 +25,8 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "eject": "react-scripts eject",
-        "preview": "npm run build && rm -rf docs && mv build docs && http-server docs",        
-        "deploy": "rm -rf docs && npm run build && mv build docs && git add -A && git commit -m \"Build commit\" && git push"
+        "preview": "npx build && rm -rf docs && mv build docs && http-server docs",        
+        "deploy": "rm -rf docs && npx build && mv build docs && git add -A && git commit -m \"Build commit\" && git push"
     },
     "eslintConfig": {
         "extends": [
