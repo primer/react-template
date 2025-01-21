@@ -4,7 +4,14 @@
 .prettierrc
 .nvmrc
 yarn.lock
-package-json.lock
+# package-json.lock
+# .editorconfig
+# .gitattributes
+
+# extraneous modern yarn stuff
+.yarn
+.pnp.cjs
+.pnp.loader.mjs
 
 # dependencies
 /node_modules

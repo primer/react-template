@@ -22,11 +22,12 @@
         "react-scripts": "^5.0.1"
     },
     "scripts": {
+        "add-yarn": "npm install corepack -g && corepack enable && yarn set version stable",
         "start": "react-scripts start",
-        "build": "react-scripts build",
+        "build": "react-scripts build && rm -rf docs && mv build docs",
         "eject": "react-scripts eject",
-        "preview": "npx build && rm -rf docs && mv build docs && http-server docs",        
-        "deploy": "rm -rf docs && npx build && mv build docs && git add -A && git commit -m \"Build commit\" && git push"
+        "preview": "react-scripts build && rm -rf docs && mv build docs && http-server docs",
+        "deploy": "rm -rf docs && react-scripts build && mv build docs && git add -A && git commit -m \"Build commit\" && git push"
     },
     "eslintConfig": {
         "extends": [
@@ -45,5 +46,6 @@
             "last 3 firefox version",
             "last 3 safari version"
         ]
-    }
+    },
+    "packageManager": "yarn@4.6.0"
 }
