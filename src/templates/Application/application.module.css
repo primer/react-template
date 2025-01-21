@@ -11,8 +11,8 @@
 }
 
 .main {
-  display: flex;
-  padding: var(--base-size-16)
+  min-width: 100vw;
+  padding: var(--base-size-16);
 }
 
 
