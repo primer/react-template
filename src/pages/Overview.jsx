@@ -36,9 +36,7 @@ const text = true
 
 function Overview() {
     return (
-      <Application title="Primer" subtitle="React" topnav={topnav}>
-        // condition ? thing : other thing
-          
+      <Application title="Primer" subtitle="React" topnav={topnav}>          
           {text && <Text as="h1" className={styles.title} fontSize="larger">Overview</Text>}
 
           {/* You could also do it as:
@@ -47,7 +45,6 @@ function Overview() {
               Which means:
               (If text is true) ? then render <Text...> : otherwise render '' 
           */}
-
             <Box className={styles.card}>
             <Button variant="danger">Edit</Button>
           </Box>
