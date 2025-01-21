@@ -1,10 +1,10 @@
 import { HashRouter, Routes, Route } from 'react-router-dom'
 import { ThemeProvider, BaseStyles } from '@primer/react'
-import Application from './templates/Application/Application.js'
-import Index from './pages/Index.js'
-import Settings from './pages/Settings.js'
+import Application from './templates/Application/Application.jsx'
+import Index from './pages/Index.jsx'
+import Settings from './pages/Settings.jsx'
 import "./globals.css";
-import ColorModeSwitcher from './ColorModeSwitcher'
+
 function App() {
     return (
       <ThemeProvider colorMode="auto">
