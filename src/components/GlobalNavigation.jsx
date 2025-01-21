@@ -1,6 +1,4 @@
 import {UnderlineNav, Box, IconButton, Text} from '@primer/react'
-// import { Octicon } from '@primer/react/deprecated'
-
 import {
   IssueOpenedIcon,
   ThreeBarsIcon,
@@ -14,9 +12,19 @@ import {
   MarkGithubIcon,
 } from '@primer/octicons-react'
 
-// 🚨 Note: This is a fake component mimicking our global navigation.
+const defaultNav = [
+  { icon: CodeIcon, label: 'Code', current: true },
+  { icon: IssueOpenedIcon, label: 'Issues', counter: 30 },
+  { icon: GitPullRequestIcon, label: 'Pull Requests', counter: 3 },
+  { icon: CommentDiscussionIcon, label: 'Discussions' },
+  { icon: PlayIcon, label: 'Actions' },
+  { icon: ProjectIcon, label: 'Projects', counter: 7 },
+  { icon: ShieldIcon, label: 'Security', counter: 12 },
+  { icon: GraphIcon, label: 'Insights' }
+];
 
-export default function GlobalNavigation() {
+export default function GlobalNavigation({ items, title, subtitle }) {
+  const resolvedNav = items ? items : defaultNav
   return (
     <Box as="header" sx={{bg: 'canvas.inset', width: '100%', maxWidth: '100%'}}>
       <Box
@@ -32,28 +40,29 @@ export default function GlobalNavigation() {
         <IconButton icon={ThreeBarsIcon} aria-label="Open global navigation menu" unsafeDisableTooltip />
         <MarkGithubIcon size={32} />
         <Box sx={{display: 'flex', gap: 2, fontSize: 1}}>
-          <span>primer</span>
-          <Text sx={{color: 'fg.muted'}}>/</Text>
-          <Text sx={{fontWeight: 'bold'}}>react</Text>
+          <span>{title ? title : 'title'}</span>
+          {subtitle && (
+            <>
+              <Text sx={{color: 'fg.muted'}}>/</Text>
+              <Text sx={{fontWeight: 'bold'}}>{subtitle ? subtitle : 'subtitle'}</Text>
+            </>
+          )}
+          
+          
         </Box>
       </Box>
       <UnderlineNav aria-label="Repository">
-        <UnderlineNav.Item icon={CodeIcon}>Code</UnderlineNav.Item>
-        <UnderlineNav.Item aria-current="page" icon={IssueOpenedIcon} counter={30}>
-          Issues
-        </UnderlineNav.Item>
-        <UnderlineNav.Item icon={GitPullRequestIcon} counter={3}>
-          Pull Requests
-        </UnderlineNav.Item>
-        <UnderlineNav.Item icon={CommentDiscussionIcon}>Discussions</UnderlineNav.Item>
-        <UnderlineNav.Item icon={PlayIcon}>Actions</UnderlineNav.Item>
-        <UnderlineNav.Item icon={ProjectIcon} counter={7}>
-          Projects
-        </UnderlineNav.Item>
-        <UnderlineNav.Item icon={ShieldIcon} counter={12}>
-          Security
-        </UnderlineNav.Item>
-        <UnderlineNav.Item icon={GraphIcon}>Insights</UnderlineNav.Item>
+        {resolvedNav.map((item) => (
+          <UnderlineNav.Item 
+            key={item.label}
+            icon={item.icon}
+            aria-current={item.current ? 'page' : undefined}
+            counter={item.counter}
+            href={item.url}
+          >
+            {item.label}
+          </UnderlineNav.Item>
+        ))}
       </UnderlineNav>
     </Box>
   )
