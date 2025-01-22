@@ -1,17 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# extraneous config 
-.prettierrc
-.nvmrc
-yarn.lock
-# package-json.lock
-# .editorconfig
-# .gitattributes
-
-# extraneous modern yarn stuff
-.yarn
-.pnp.cjs
-.pnp.loader.mjs
+#build
+dist
 
 # dependencies
 /node_modules
