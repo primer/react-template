@@ -26,17 +26,17 @@ npm install
 npm run dev
 ```
 
-Once `npm run dev` is running, go to the **PORTS tab** in the terminal and open the URL for your app. 
+Once `npm run dev` is running, go to the **PORTS tab** in the terminal and open the URL for your prototype:
 
-![alt text](.readme/image-ports.png)
+![Screenshot showing the ports tab and Port URL](.readme/image-ports-1.png)
+
+If the **PORTS tab** is not visible for you, right-click next to the other tabs and enable it in the dropdown menu:
+
+![Screenshot showing how to enable the ports tab](.readme/image-ports.png)
 
 ### Sharing your prototype
 
-This is a temporary URL that's only live while `npm run dev` is running in the Codespace. To share a permanent URL, see Get started (Locally) below.
-
-If the **PORTS tab** is not visible, right-click next to the other tabs and enable `Ports` in the dropdown menu:
-
-![Screenshot matching the description above](.readme/image-ports-2.png)
+This is a temporary URL that's only live while `npm run dev` is running in your Codespace. 
 
 To make the URL accessible for others, change its visibility: 
 
@@ -47,11 +47,13 @@ To make the URL accessible for others, change its visibility:
 
 ![Screenshot matching the description above](.readme/image-ports-3.png)
 
-### Saving your codespace permanently
+To share a permanent URL, see [Get Started (Local development)](#get-started-local-development) below.
+
+### Saving your codespace into a repository
 
 If you try to `git push` from your codespace terminal, you will notice there is no repository associated with it.
 
-To save your work, create a new empty repository owned by **@github** and set push codespace to it by running:
+To save your work, create a new empty repository owned by **@github** and set your codespace to it by running:
 
 ```bash
 git remote add origin git@github.com:github/YOUR_REPO_URL.git
