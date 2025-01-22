@@ -1,10 +1,78 @@
-# Primer React App ⚛️⚡
+# Primer React Prototype ⚛️⚡
 
-The easiest way to build an app from scratch with [Primer React](https://primer.style/react/) and deploy with GitHub Pages. 
+The easiest way to build a prototype from scratch with [Primer React](https://primer.style/react/) and deploy with GitHub Pages. 
 
-Accessible only for signed-in Hubbers out of the box! Perfect for quick prototyping ⚡
+Perfect for quick prototyping with code, visible only for signed-in Hubbers (mostly) out of the box.
 
-## Get Started (Locally)
+*Built using [vite.dev](https://vite.dev/guide/), see their docs if you want to customize any configuration (you shouldn't have to).*
+
+## Get Started (Quick setup - Codespaces)
+
+<details>
+<summary>
+See instructions
+</summary>
+
+### Create a codespace
+
+1. Create a codespace for your prototype by clicking **Use this template** > **Open in a codespace**
+
+2. In the codespaces terminal, run:
+
+```bash
+npm install
+```
+```bash
+npm run dev
+```
+
+Once `npm run dev` is running, go to the **PORTS tab** in the terminal and open the URL for your app. 
+
+![alt text](.readme/image-ports.png)
+
+In this example, it's https://literate-garbanzo-4gx6qjxv643wjp-1234.app.github.dev/
+
+### Sharing your prototype
+
+This is a temporary URL that's only live while `npm run dev` is running in the Codespace. To share a permanent URL, see Get started (Locally) below.
+
+If the **PORTS tab** is not visible, right-click next to the other tabs and enable `Ports` in the dropdown menu:
+
+![Screenshot matching the description above](.readme/image-ports-2.png)
+
+To make the URL accessible for others, change its visibility: 
+
+1. Go to **PORTS** tab
+2. On the Visibility column, right click on **🔒 Private** 
+3. Choose **Port visibility** on the dropdown
+4. Change it to **Private to Organization**
+
+![Screenshot matching the description above](.readme/image-ports-3.png)
+
+### Saving your codespace permanently
+
+If you try to `git push` from your codespace terminal, you will notice there is no repository associated with it.
+
+To save your work, create a new empty repository owned by **@github** and set push codespace to it by running:
+
+```bash
+git remote add origin git@github.com:github/YOUR_REPO_URL.git
+git branch -M main
+git push -u origin main
+```
+
+Once you have a repository saved, you should finish the configuration under [Deploying your prototype](#deploying-your-prototype).
+
+You don't need to develop locally, however. You can always keep building in the browser, just choose the Coodespaces tab under the Code button:
+
+![Code button and Codespaces tab opened in the dialog below](.readme/image-codespace.png)
+
+</details>
+
+## Get Started (Local development)
+
+<details>
+<summary>See instructions</summary>
 
 ### Start your repository
 1. Create a repository for your prototype by clicking **Use this template** > **Create a new repository**
@@ -13,7 +81,7 @@ Accessible only for signed-in Hubbers out of the box! Perfect for quick prototyp
 
 3. Clone your new repo locally
 
-### Building your prototype
+### Developing
 
 You need to have nodejs installed on your machine. If you don't, [head here](https://nodejs.org/en/download) and choose macOS installer.
 
@@ -29,37 +97,51 @@ npm run dev
 
 You will see the site running on http://localhost:1234
 
-### Deploy
+## Deploying your prototype
 
-Just push changes to your remote repository on GitHub and the associated action will take care of it!
+You need to change a few settings on GitHub.com for your prototype to be deployed & visible. This cannot be automated at the moment unfortunately!
 
-### In case of errors
+1. Go to **Settings > Pages**:
+   - Set GitHub Pages visibility to **Private**
+   - Set Build and deployment source to **GitHub Actions**
 
-You need to have nodejs installed on your machine. If you don't, [head here](https://nodejs.org/en/download) and choose macOS installer.
+![Screenshot showing the UI with the descriptions above](.readme/image.png)
 
-If you get an 
+2. Go to **Settings > Collaborators and teams**:
+   - Click "Add teams"
+   - Add **github/employees** with at least "Read" permission
 
-WIP – Check [this Google Doc](https://docs.google.com/document/d/15Yzmy_Ji_e9s0WZSQC6OBuxEhfXbQCCP-v64DHJ22x4/edit?tab=t.0) for now!
+![Manage access UI showing "Add teams" and the @github/employees team already added](.readme/image-2.png)
 
-Also check out this talk (9 minutes 30 seconds) from @heyamie for more tips on [prototyping with Primer React](https://www.youtube.com/watch?v=XroAmpITjsI).
+3. Push your first commit after setting this up, and you will see your prototype available on an auto-generated URL under **Settings > Pages**. Share this URL with any Hubber and they will see it too!
 
-## Useful Links
+![Interface written: GitHub Pages - Your site is live at https://refactored-guacamole-6kolnpq.pages.github.io/](.readme/image-1.png)
 
--   [🧠 Primer React Documentation](https://primer.style/react/)
--   [🌈 Primer Primitives (Colors)](https://primer.style/primitives/colors)
+  <details>
+  <summary>Extra options</summary>
 
-<!--  
-## 10 reasons why this is great
+  - Add your Pages URL to the repository description:
+    - On your repository homepage, click the gear (⚙️) icon next to **About** to edit the description
+    - On the modal check **Use your GitHub Pages website**
+    - Save changes, and your URL will be visible
+  </details>
 
--   🧑🏻‍💻 Get used to using Codespaces
--   🥺 You're a new Hubber, you have enough to learn already
--   👁 Color mode test your layout quickly
--   🧖‍♀️ Prototype layouts outside the main platform
--   🗑 No clutter on your local computer
--   🥴 No local problems
--   🪄 No linter or formatter issues
--   ▶️ Send over a preview link while working live on your code, no waiting for deploy previews needed.
--   🚀 No need to set up a new react project, just instantly start prototyping
--   🧪 You want to learn React
+</details>
 
--->
+## Tips and Tricks
+
+Use [Primer React](https://primer.style/components) components to build your layouts. 
+
+To create new pages, duplicate any file in the `/pages` folder and rename it to `whatever.jsx`. Now head to `localhost:1234/whatever` and you will see your new page loaded
+
+Also check out [this talk](https://www.youtube.com/watch?v=XroAmpITjsI) from [@heyamie](https://github.com/heyamie) for more tips on prototyping. Some parts are only relevant for NextJS projects, but a lot still applies!
+
+## Dealing with errors
+
+### `npm: command not found`
+
+If you try to run `npm install` and get an error similar to the one above, that means you don't have Node/npm installed on your machine. In that case, [head here](https://nodejs.org/en/download) to download it (choose macOS installer for the simplest option).
+
+### Any other error
+
+Please open an issue or ping `@dfosco` on Slack! This repository is built to be a simple prototyping experience for designers and other non-developers. If it doesn't work out of the box, **the template is wrong, not you**. Let's fix it together 🙂
