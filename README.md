@@ -2,7 +2,7 @@
 
 The easiest way to build a prototype from scratch with [Primer React](https://primer.style/react/) and deploy with GitHub Pages. 
 
-Perfect for quick prototyping with code, visible only for signed-in Hubbers (mostly) out of the box.
+Perfect for quick prototyping with code, and setup to be visible only for signed-in Hubbers. Works (mostly) out of the box!
 
 *Built using [vite.dev](https://vite.dev/guide/), see their docs if you want to customize any configuration (you shouldn't have to).*
 
