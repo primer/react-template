@@ -19,7 +19,7 @@ import {
 const topnav = [
   { icon: CodeIcon, label: 'Code', url: '/' },
   { icon: IssueOpenedIcon, label: 'Issues', counter: 10, url: '#issues', current: true },
-  { icon: GitPullRequestIcon, label: 'Pull Requests', counter: 3 },
+  { icon: GitPullRequestIcon, label: 'Pull Requests', counter: 3, url: '/overview' },
   { icon: CommentDiscussionIcon, label: 'Discussions' },
   { icon: PlayIcon, label: 'Actions' },
   { icon: ProjectIcon, label: 'Projects', counter: 7 },
