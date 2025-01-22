@@ -56,7 +56,7 @@ If you try to `git push` from your codespace terminal, you will notice there is 
 To save your work, create a new empty repository owned by **@github** and set your codespace to it by running:
 
 ```bash
-git remote add origin git@github.com:github/YOUR_REPO_URL.git
+git remote add origin git@github.com:github/YOUR_REPO_NAME.git
 git branch -M main
 git push -u origin main
 ```
