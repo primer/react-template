@@ -101,13 +101,13 @@ You will see the site running on http://localhost:1234
 
 You need to change a few settings on GitHub.com for your prototype to be deployed & visible. This cannot be automated at the moment unfortunately!
 
-1. Go to **Settings > Pages**:
+1. Go to your repository, then **Settings > Pages**:
    - Set GitHub Pages visibility to **Private**
    - Set Build and deployment source to **GitHub Actions**
 
 ![Screenshot showing the UI with the descriptions above](.readme/image.png)
 
-2. Go to **Settings > Collaborators and teams**:
+2. Go to your repository, then **Settings > Collaborators and teams**:
    - Click "Add teams"
    - Add **github/employees** with at least "Read" permission
 
