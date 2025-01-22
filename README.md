@@ -30,8 +30,6 @@ Once `npm run dev` is running, go to the **PORTS tab** in the terminal and open 
 
 ![alt text](.readme/image-ports.png)
 
-In this example, it's https://literate-garbanzo-4gx6qjxv643wjp-1234.app.github.dev/
-
 ### Sharing your prototype
 
 This is a temporary URL that's only live while `npm run dev` is running in the Codespace. To share a permanent URL, see Get started (Locally) below.
