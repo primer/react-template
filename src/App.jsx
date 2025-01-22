@@ -11,8 +11,8 @@ function App() {
           <BaseStyles>
           <HashRouter>
                     <Routes>
-                        <Route path="/" element={<Overview />} />
-                        <Route path="/code" element={<Code />} />
+                        <Route path="/" element={<Code />} />
+                        <Route path="/overview" element={<Overview />} />
                         <Route path="/issues" element={<Issues />} />
                     </Routes>
               </HashRouter>
