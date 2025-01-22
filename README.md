@@ -138,10 +138,10 @@ Also check out [this talk](https://www.youtube.com/watch?v=XroAmpITjsI) from [@h
 
 ## Dealing with errors
 
-### `npm: command not found`
+#### `npm: command not found`
 
-If you try to run `npm install` and get an error similar to the one above, that means you don't have Node/npm installed on your machine. In that case, [head here](https://nodejs.org/en/download) to download it (choose macOS installer for the simplest option).
+If you try to run `npm install` and get an error similar to the one described above, that means you don't have Node/npm installed on your machine. In that case, [head here to download it](https://nodejs.org/en/download). Choose macOS installer for the simplest option.
 
-### Any other error
+#### Any other error
 
 Please open an issue or ping `@dfosco` on Slack! This repository is built to be a simple prototyping experience for designers and other non-developers. If it doesn't work out of the box, **the template is wrong, not you**. Let's fix it together 🙂
