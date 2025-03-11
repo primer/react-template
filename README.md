@@ -128,13 +128,29 @@ You need to change a few settings on GitHub.com for your prototype to be deploye
 
 </details>
 
+## 10 reasons why this is great
+
+-   🧑🏻‍💻 Get used to using Codespaces
+-   🥺 You're a new Hubber, you have enough to learn already
+-   👁 Color mode test your layout quickly
+-   🧖‍♀️ Prototype layouts outside the main platform
+-   🗑 No clutter on your local computer
+-   🥴 No local problems
+-   🪄 No linter or formatter issues
+-   ▶️ Send over a preview link while working live on your code, no waiting for deploy previews needed.
+-   🚀 No need to set up a new react project, just instantly start prototyping
+-   🧪 You want to learn React
+
+## Useful Links
+
+-   [🧠 Primer React Documentation](https://primer.style/react/)
+-   [🌈 Primer Primitives (Colors)](https://primer.style/primitives/colors)
+
 ## Tips and Tricks
 
-Use [Primer React](https://primer.style/components) components to build your layouts. 
-
-To create new pages, duplicate any file in the `/pages` folder and rename it to `whatever.jsx`. Now head to `localhost:1234/whatever` and you will see your new page loaded
-
-Also check out [this talk](https://www.youtube.com/watch?v=XroAmpITjsI) from [@heyamie](https://github.com/heyamie) for more tips on prototyping. Some parts are only relevant for NextJS projects, but a lot still applies!
+- Use [Primer React](https://primer.style/components) components to build your layouts, or check [Primer Templates](https://ui.githubapp.com/storybook/?path=/docs/templates-readme--docs&globals=viewport:narrow) (staff only) to get a starting point.
+- To create new pages, duplicate any file in the `/pages` folder and rename it to `whatever.jsx`. Now head to `localhost:1234/whatever` and you will see your new page loaded
+- Also check out [this talk](https://www.youtube.com/watch?v=XroAmpITjsI) from [@heyamie](https://github.com/heyamie) for more tips on prototyping. Some parts are only relevant for NextJS projects, but a lot still applies!
 
 ## Dealing with errors
 
@@ -144,4 +160,4 @@ If you try to run `npm install` and get an error similar to the one described ab
 
 #### Any other error
 
-Please open an issue or ping `@dfosco` on Slack! This repository is built to be a simple prototyping experience for designers and other non-developers. If it doesn't work out of the box, **the template is wrong, not you**. Let's fix it together 🙂
+Please open an issue or send a message on `#primer` in Slack (staff only). This repository is built to be a simple prototyping experience for designers and other non-developers. If it doesn't work out of the box, **the template is wrong, not you** -- please reach and the Primer team will help!

@@ -32,21 +32,13 @@ const topnav = [
   { icon: GraphIcon, label: 'Compliance' }
 ];
 
-const text = true
-
 function Overview() {
     return (
       <Application title="Primer" subtitle="React" topnav={topnav}>          
-          {text && <Text as="h1" className={styles.title} fontSize="larger">Overview</Text>}
-
-          {/* You could also do it as:
-              text ? <Text as="h1" className={styles.title} fontSize="larger">Overview</Text> : ''
-              
-              Which means:
-              (If text is true) ? then render <Text...> : otherwise render '' 
-          */}
-            <Box className={styles.card}>
-            <Button variant="danger">Edit</Button>
+          <Text as="h1" className={styles.title} fontSize="larger">Overview</Text>
+          <Box className={styles.card}>
+          <Text as="p" className={styles.cardText} fontSize="medium">This is a card in the overview</Text>
+            <Button>Edit</Button>
           </Box>
         </Application>
     )

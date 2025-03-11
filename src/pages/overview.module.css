@@ -8,3 +8,7 @@
   border-color: var(--borderColor-default);
   padding: var(--base-size-16);
 }
+
+.cardText {
+  margin-bottom: var(--base-size-16)
+}

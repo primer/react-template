@@ -3,7 +3,7 @@ import {
     MarkGithubIcon,
     CheckIcon,
     CommentIcon,
-    MortarBoardIcon,
+    SmileyIcon
 } from '@primer/octicons-react'
 
 import MonaLoadingImage from '../images/mona-loading.gif'
@@ -80,20 +80,42 @@ function CodeLine({ icon, iconColor, children }) {
 
 function Footer() {
     return (
-        <Box sx={{ textAlign: 'center' }}>
-            <Box sx={{ mr: 2, display: 'inline-block' }}>
+        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 'var(--base-size-8)' }}>
+            <Box sx={{ mr: 2, mb: 2 }}>
                 <Octicon
-                    icon={MortarBoardIcon}
-                    size={16}
-                    sx={{ mr: 1, color: 'attention.fg' }}
+                    icon={SmileyIcon}
+                    size={18}
+                    sx={{ mr: 2, color: 'accent.fg' }}
                 />
-                <Text sx={{ color: 'attention.fg' }}>Tip</Text>
+                <Text sx={{ color: 'accent.fg', fontSize: 'medium' }}>Tips</Text>
             </Box>
             <Text>
-                Before you get started check out our{' '}
+                Before you get started check out our
+                {' '}
                 <Link href="https://primer.style/react" target="_blank">
                     Primer React Documentation
                 </Link>
+                {' '}
+                and
+                {' '}
+                <Link href="https://ui.githubapp.com/storybook/?path=/docs/templates-readme--docs&globals=viewport:narrow" target="_blank">
+                    Primer Templates (staff only)
+                </Link>
+            </Text>
+            <Text>
+                Check also the
+                {' '}
+                <Link href="/issues">
+                    Issues page
+                </Link>
+                {' '}
+                and the 
+                {' '}
+                <Link href="/overview">
+                    overview page
+                </Link>
+                {' '}
+                for more layout examples
             </Text>
         </Box>
     )
