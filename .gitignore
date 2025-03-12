@@ -1,16 +1,25 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+<<<<<<< HEAD
+=======
+#build
+dist
+
+>>>>>>> 66c58f06f60ba27ba01e7ac0e8ccb83d2d81b319
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
 
+<<<<<<< HEAD
 # testing
 /coverage
 
 # production
 /build
 
+=======
+>>>>>>> 66c58f06f60ba27ba01e7ac0e8ccb83d2d81b319
 # misc
 .DS_Store
 .env.local
