@@ -1,33 +1,4 @@
-<<<<<<< HEAD
-# Primer React Template 🐱⚛️
-
-The quickest way to test out or prototype something in [Primer React](https://primer.style/react/) without having to set up a new project.
-
-<img width="902" alt="preview" src="https://user-images.githubusercontent.com/980622/133642956-9eba4d44-ce66-434f-afe0-a88be0104682.png">
-
-## Get Started (Codespaces)
-
-1. Click `Code`
-2. Click `new codespace`
-3. Pick any machine type and click `create codespace`
-4. Wait until the container is built and `Running postCreateCommand...` is finished running in the bottom `TERMINAL` panel.
-5. Now in the `TERMINAL` panel write the `yarn start` command and hit enter.
-6. When it's finished building your project click `Open` to open a preview of it. If this doesn't happen click `PORTS` in the bottom window and open the `Local Address` from there.
-7. Now you are in Mona's playground 🎉 and you can start editing the `src/Playground.js` file to play around with Primer React.
-
-https://user-images.githubusercontent.com/980622/135662854-946e5d2d-b6d1-4cbf-a769-318bf52858a8.mov
-
-## Get Started (Locally)
-
-1. Clone the project
-2. Run `yarn`
-3. Run `yarn start`
-4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-5. Go to `src/Playground.js` to start prototyping.
-
-(For GitHub staff only) Check out this talk (9 minutes 30 seconds) from @heyamie for more tips on [prototyping with Primer React](https://github.rewatch.com/video/sniwdhyn3qqcvjsq-prototyping-with-primer-react-lightning-talk).
-=======
-# Primer React Prototype ⚛️⚡
+# Primer React Template ⚡⚛️
 
 The easiest way to build a prototype from scratch with [Primer React](https://primer.style/react/) and deploy with GitHub Pages. 
 
@@ -156,7 +127,6 @@ You need to change a few settings on GitHub.com for your prototype to be deploye
   </details>
 
 </details>
->>>>>>> 66c58f06f60ba27ba01e7ac0e8ccb83d2d81b319
 
 ## 10 reasons why this is great
 
@@ -170,13 +140,6 @@ You need to change a few settings on GitHub.com for your prototype to be deploye
 -   ▶️ Send over a preview link while working live on your code, no waiting for deploy previews needed.
 -   🚀 No need to set up a new react project, just instantly start prototyping
 -   🧪 You want to learn React
-
-## Useful Links
-
--   [🧠 Primer React Documentation](https://primer.style/react/)
--   [🌈 Primer Primitives (Colors)](https://primer.style/primitives/colors)
-<<<<<<< HEAD
-=======
 
 ## Tips and Tricks
 
@@ -193,4 +156,3 @@ If you try to run `npm install` and get an error similar to the one described ab
 #### Any other error
 
 Please open an issue or send a message on `#primer` in Slack (staff only). This repository is built to be a simple prototyping experience for designers and other non-developers. If it doesn't work out of the box, **the template is wrong, not you** -- please reach and the Primer team will help!
->>>>>>> 66c58f06f60ba27ba01e7ac0e8ccb83d2d81b319
