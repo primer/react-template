@@ -33,7 +33,7 @@
         "eslint-plugin-react-refresh": "^0.4.16",
         "glob": "^11.0.2",
         "globals": "^15.14.0",
-        "postcss-custom-media": "10.0.8",
+        "postcss-custom-media": "^10.0.8",
         "postcss-nesting": "^13.0.1",
         "vite": "^6.3.4"
     }
