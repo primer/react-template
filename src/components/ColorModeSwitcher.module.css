@@ -1,0 +1,11 @@
+.switcher {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: var(--base-size-12);
+}
+
+.btnText {
+    display: inline-block;
+    margin-left: var(--base-size-8);
+}

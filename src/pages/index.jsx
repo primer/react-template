@@ -1,4 +1,4 @@
-import { Box, Text, Link, Octicon } from '@primer/react'
+import { Link, Octicon } from '@primer/react'
 import {
     MarkGithubIcon,
     CheckIcon,
