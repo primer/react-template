@@ -14,10 +14,13 @@
     justify-content: center;
     align-items: center;
     padding: var(--base-size-16);
+}
 
-    @media (--viewportRange-narrow) {
-        background-color: red;
-        font-size: 500px;
+@media (--breakpoint-medium) {
+    .page {
+        background-color: blue;
+        font-size: 100px;
+        color: green;
     }
 }
 
