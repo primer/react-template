@@ -4,7 +4,6 @@ import {
     CheckIcon,
     CommentIcon,
     MortarBoardIcon,
-    SmileyIcon,
 } from '@primer/octicons-react'
 
 import MonaLoadingImage from '../images/mona-loading.gif'
@@ -15,7 +14,7 @@ function Playground() {
     /*
     WELCOME TO MONA's 😽🐙 PLAYGROUND
     Delete everything in here or play with the existing Mona playground code to get familiar with Primer React.
-    Documentation: https://primer.style/react
+    Documentation: https://primer.style/product/getting-started/react/
     Documentation colors: https://primer.style/primitives/colors
   */
 
