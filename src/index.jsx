@@ -11,7 +11,7 @@ const root = createRoot(rootElement)
 
 root.render(
     <StrictMode>
-        <ThemeProvider colorMode="day" nightScheme="dark">
+        <ThemeProvider colorMode="auto">
             <BaseStyles>
                 <Routes />
             </BaseStyles>
