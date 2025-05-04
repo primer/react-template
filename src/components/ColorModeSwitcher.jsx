@@ -54,7 +54,7 @@ function ColorModeSwitcher() {
                 }}
             >
                 <ActionMenu>
-                    <ActionMenu.Button size="small">
+                    <ActionMenu.Button size="medium">
                         <current.icon />
                         <Box sx={{ display: 'inline-block', ml: 2 }}>
                             {' '}
