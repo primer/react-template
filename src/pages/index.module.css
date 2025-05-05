@@ -17,8 +17,6 @@
 
     @media (--breakpoint-small) {
         background-color: blue;
-        font-size: 100px;
-        color: green;
     }
 }
 
