@@ -1,0 +1,97 @@
+/*
+    WELCOME TO MONA's CSS 😽🐙 PLAYGROUND
+    This CSS file is used to style the divs in your playground.
+    We use var() to access the CSS variables defined in the theme.
+    Find all the vars here: https://primer.style/primitives/storybook/
+  */
+
+.page {
+    background: var(--bgColor-default);
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--base-size-16);
+}
+
+.terminal {
+    max-width: 600px;
+    width: 100%;
+    height: 300px;
+    background: var(--bgColor-emphasis);
+    border-radius: var(--borderRadius-large);
+    padding: var(--base-size-20);
+    margin-top: var(--base-size-28);
+    margin-bottom: var(--base-size-28);
+}
+
+.codeline {
+    display: flex;
+    color: var(--fgColor-onEmphasis);
+    margin-bottom: var(--base-size-8);
+}
+
+.codelineIcon {
+    display: flex;
+    margin-top: 2px;
+    width: 20px;
+    min-width: 20px;
+}
+
+.codelineText {
+    flex: 1;
+    font-size: var(--text-body-size-medium);
+    font-family: var(--fontStack-monospace);
+    margin-left: var(--base-size-8);
+}
+
+.loader {
+    display: inline-block;
+    margin-left: var(--base-size-12);
+    margin-top: var(--base-size-8);
+}
+
+.fileName {
+    color: var(--fgColor-attention);
+}
+
+/*
+    The footer shows a tip to the user and includes responsive styles.
+    It is displayed at the bottom of the page.
+
+    Find all the media vars here: https://primer.style/primitives/storybook/?path=/story/size-functional-viewport--viewport
+*/
+
+.footer {
+    text-align: center;
+    font-size: var(--text-body-size-medium);
+
+    @media (--viewportRange-narrow) {
+        display: block;
+    }
+}
+
+.tip {
+    margin-right: var(--base-size-8);
+    color: var(--fgColor-attention);
+    display: inline-block;
+
+    @media (--viewportRange-narrow) {
+        margin-right: var(--base-size-8);
+    }
+}
+
+.tipText {
+    display: inline-block;
+
+    @media (--viewportRange-narrow) {
+        margin-top: var(--base-size-8);
+        display: block;
+    }
+}
+
+.tipIcon {
+    margin-right: var(--base-size-8);
+}
