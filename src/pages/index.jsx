@@ -15,7 +15,7 @@ function Playground() {
     WELCOME TO MONA's 😽🐙 PLAYGROUND
     Delete everything in here or play with the existing Mona playground code to get familiar with Primer React.
     Documentation: https://primer.style/product/getting-started/react/
-    Documentation colors: https://primer.style/primitives/colors
+    Documentation vars: https://primer.style/primitives/
   */
 
     return (
@@ -79,7 +79,7 @@ function Footer() {
                 <span>Tip</span>
             </div>
 
-            <span>
+            <div className={styles.tipText}>
                 Check out our{' '}
                 <Link
                     href="https://primer.style/product/getting-started/react/"
@@ -95,7 +95,7 @@ function Footer() {
                     internal templates
                 </Link>{' '}
                 before starting.
-            </span>
+            </div>
         </footer>
     )
 }
