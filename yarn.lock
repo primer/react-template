@@ -719,13 +719,13 @@
     "@eslint/core" "^0.10.0"
     levn "^0.4.1"
 
-"@generouted/react-router@^1.19.10":
-  version "1.19.10"
-  resolved "https://registry.npmjs.org/@generouted/react-router/-/react-router-1.19.10.tgz"
-  integrity sha512-t+skXxGZNqrhl/tDnXgrE0a4exfkKfg1kmsirs7H/BKQxBq3m5a/OEY98pAi2PEgGFN1t8u4/dBEQh2FUA8Wcg==
+"@generouted/react-router@^1.19.11":
+  version "1.19.11"
+  resolved "https://registry.yarnpkg.com/@generouted/react-router/-/react-router-1.19.11.tgz#02d230e85e5c9c86e24894c4a3b6abd7018f38bc"
+  integrity sha512-jmF+iOj7e6ttxVROa30jotgUCZJEvLBMHcmICS1Yoe6aB4xA97B5o5aKJJ6APhqWVAVa1z8UU3BXjEfFuaJiUw==
   dependencies:
     fast-glob "^3.3.3"
-    generouted "^1.19.10"
+    generouted "^1.19.11"
 
 "@github/browserslist-config@^1.0.0":
   version "1.0.0"
@@ -2165,10 +2165,10 @@ fzy.js@^0.4.1:
   resolved "https://registry.npmjs.org/fzy.js/-/fzy.js-0.4.1.tgz"
   integrity sha512-4sPVXf+9oGhzg2tYzgWe4hgAY0wEbkqeuKVEgdnqX8S8VcLosQsDjb0jV+f5uoQlf8INWId1w0IGoufAoik1TA==
 
-generouted@^1.19.10:
-  version "1.19.10"
-  resolved "https://registry.npmjs.org/generouted/-/generouted-1.19.10.tgz"
-  integrity sha512-qwCDdVMwN4+C3eTlwxiQrDfr+6URY5T87WzEIeUxhZ2zLVzwvnAMYWAAAgnr4tJA+47L+KvHKr4BYn50VQxsnw==
+generouted@^1.19.11:
+  version "1.20.0"
+  resolved "https://registry.yarnpkg.com/generouted/-/generouted-1.20.0.tgz#cd287ec0cbd167edc642cf94cd025791ffea5629"
+  integrity sha512-VXU5dFsWdm/faFo2fTGW5obYxy8hhM6B1WXYhCLAV+5pODhrsu8RBc/1IsOQKqtHFYqsuSE5C5KpzmBaLllUqg==
 
 gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
