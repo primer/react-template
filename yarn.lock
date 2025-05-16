@@ -288,10 +288,10 @@
     "@csstools/css-parser-algorithms" "^3.0.4"
     "@csstools/css-tokenizer" "^3.0.3"
 
-"@csstools/postcss-global-data@2.1.1":
-  version "2.1.1"
-  resolved "https://registry.npmjs.org/@csstools/postcss-global-data/-/postcss-global-data-2.1.1.tgz"
-  integrity sha512-tihdBLogY2G5jgUSu2jKSEVeOcnWqsz6k7UmPM7+ezhuV9FP5MIyX35Hc/YvqipQLRNsfBj9wRkBvsE7k1GM8A==
+"@csstools/postcss-global-data@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@csstools/postcss-global-data/-/postcss-global-data-3.0.0.tgz#c3b5380678de8fd5d9bf76e400ebdb95a60d0b94"
+  integrity sha512-3dR5+RDhPW1uqPWZUyTBSVn03gGbxzoSyCEpXugy9UMtXeyKjrB84dX3V8eggzooCsX8wcraKehzdouNO+MlsA==
 
 "@csstools/postcss-gradients-interpolation-method@^5.0.9":
   version "5.0.9"

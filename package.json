@@ -22,7 +22,7 @@
         "web-vitals": "^4.2.4"
     },
     "devDependencies": {
-        "@csstools/postcss-global-data": "2.1.1",
+        "@csstools/postcss-global-data": "3.0.0",
         "@eslint/js": "^9.17.0",
         "@github/browserslist-config": "^1.0.0",
         "@types/react": "^18.3.18",
