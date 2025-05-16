@@ -31,7 +31,7 @@
         "eslint": "^9.17.0",
         "eslint-plugin-react": "^7.37.5",
         "eslint-plugin-react-hooks": "^5.2.0",
-        "eslint-plugin-react-refresh": "^0.4.16",
+        "eslint-plugin-react-refresh": "^0.4.20",
         "glob": "^11.0.2",
         "globals": "^15.14.0",
         "postcss-preset-env": "^10.1.6",
