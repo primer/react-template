@@ -37,7 +37,7 @@ function Playground() {
                     >
                         Visit{' '}
                         <span className={styles.fileName}>
-                            src/Playground.js
+                            src/pages/index.jsx
                         </span>{' '}
                         and start building your own layouts using Primer.
                     </CodeLine>
