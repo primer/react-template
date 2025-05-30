@@ -16,6 +16,13 @@
     padding: var(--base-size-16);
 }
 
+.container {
+    border: var(--borderWidth-thin) solid var(--borderColor-muted);
+    border-radius: 12px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+}
 .terminal {
     max-width: 600px;
     width: 100%;
