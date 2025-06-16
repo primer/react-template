@@ -1,4 +1,4 @@
-import { Link, Octicon } from '@primer/react'
+import { Link } from '@primer/react'
 import {
     MarkGithubIcon,
     CheckIcon,
@@ -29,7 +29,7 @@ function Playground() {
                         icon={CheckIcon}
                         iconColor="var(--fgColor-success)"
                     >
-                        Mona's playground successfully initialised...
+                        Mona&apos;s playground successfully initialised...
                     </CodeLine>
                     <CodeLine
                         icon={CommentIcon}
@@ -57,10 +57,11 @@ function Playground() {
 }
 
 function CodeLine({ icon, iconColor, children }) {
+    const Icon = icon
     return (
         <li className={styles.codeline}>
             <div className={styles.codelineIcon} style={{ color: iconColor }}>
-                <Octicon icon={icon} size={16} />
+                <Icon size={16} />
             </div>
             <div className={styles.codelineText}>{children}</div>
         </li>
@@ -71,11 +72,7 @@ function Footer() {
     return (
         <footer className={styles.footer}>
             <div className={styles.tip}>
-                <Octicon
-                    icon={MortarBoardIcon}
-                    size={16}
-                    className={styles.tipIcon}
-                />
+                <MortarBoardIcon size={16} className={styles.tipIcon} />
                 <span>Tip</span>
             </div>
 
