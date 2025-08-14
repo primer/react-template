@@ -878,10 +878,10 @@
   dependencies:
     "@lit-labs/ssr-dom-shim" "^1.2.0"
 
-"@primer/octicons-react@^19.13.0", "@primer/octicons-react@^19.15.4":
-  version "19.15.4"
-  resolved "https://registry.npmjs.org/@primer/octicons-react/-/octicons-react-19.15.4.tgz"
-  integrity sha512-Ts4x+d8fhWjFXF7i8WUlZ3vSKMvwS4RbuJJYDHhPzhXOeaRce/yrAT7LO7QLgSMnJFLWkaTaUVeC+LP1ZlGW6w==
+"@primer/octicons-react@^19.13.0", "@primer/octicons-react@^19.15.5":
+  version "19.15.5"
+  resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-19.15.5.tgz#4c51c18290ac8b0040e05d54e781cd4c503d2f1c"
+  integrity sha512-JEoxBVkd6F8MaKEO1QKau0Nnk3IVroYn7uXGgMqZawcLQmLljfzua3S1fs2FQs295SYM9I6DlkESgz5ORq5yHA==
 
 "@primer/primitives@10.x || 11.x", "@primer/primitives@^10.0.0":
   version "10.3.4"
