@@ -12,7 +12,7 @@ import styles from './index.module.css'
 
 function Playground() {
     /*
-    WELCOME TO MONA's 😽🐙 PLAYGROUND
+    WELCOME TO DAVID's 😽🐙 PLAYGROUND
     Delete everything in here or play with the existing Mona playground code to get familiar with Primer React.
     Documentation: https://primer.style/product/getting-started/react/
     Documentation vars: https://primer.style/primitives/
