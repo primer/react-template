@@ -927,10 +927,10 @@
   resolved "https://registry.npmjs.org/@primer/primitives/-/primitives-10.3.4.tgz"
   integrity sha512-f4tudg+MFpU4sH73Ha9wFOBwyN2b2WI7BkqMThqRIWQ/LFUturYkgt78YByJ6PJw8ZY0poPiefvBCdduyd20vA==
 
-"@primer/react@^37.26.0":
-  version "37.27.0"
-  resolved "https://registry.npmjs.org/@primer/react/-/react-37.27.0.tgz"
-  integrity sha512-zxTiM80hfzKlHkil9tyuk6gM8eMEtH+w3WtMYrAfXovtwIuF/GgcNJH9tbVlZPCQH+N0r6jWstvN3jaVsdKZsA==
+"@primer/react@^37.31.0":
+  version "37.31.0"
+  resolved "https://registry.yarnpkg.com/@primer/react/-/react-37.31.0.tgz#37f6ce3db38ae9d4eec6e0f0278a7ca1936f32c7"
+  integrity sha512-sK+/Ggy05yg3TaFdJRfEmRuaZBsmFD5P7nH1qyVqO9OeT8o2jnqnlBhef8TYX0gpNrLwWNcVrIIOP2Em6T6rrA==
   dependencies:
     "@github/relative-time-element" "^4.4.5"
     "@github/tab-container-element" "4.8.2"
@@ -943,7 +943,6 @@
     "@styled-system/css" "^5.1.5"
     "@styled-system/props" "^5.1.5"
     "@styled-system/theme-get" "^5.1.2"
-    "@types/react-is" "^18.2.1"
     "@types/styled-system" "^5.1.23"
     "@types/styled-system__css" "^5.0.16"
     "@types/styled-system__theme-get" "^5.0.1"
@@ -955,8 +954,8 @@
     hsluv "1.0.1"
     lodash.isempty "^4.4.0"
     lodash.isobject "^3.0.2"
+    react-compiler-runtime "^19.1.0-rc.2"
     react-intersection-observer "^9.16.0"
-    react-is "^18.2.0"
     styled-system "^5.1.5"
     type-check "0.4.0"
 
@@ -1217,14 +1216,7 @@
   resolved "https://registry.npmjs.org/@types/react-dom/-/react-dom-18.3.5.tgz"
   integrity sha512-P4t6saawp+b/dFrUr2cvkVsfvPguwsxtH6dNIYRllMsefqFzkZk5UIjzyDOv5g1dXIPdG4Sp1yCR4Z6RCUsG/Q==
 
-"@types/react-is@^18.2.1":
-  version "18.3.1"
-  resolved "https://registry.npmjs.org/@types/react-is/-/react-is-18.3.1.tgz"
-  integrity sha512-zts4lhQn5ia0cF/y2+3V6Riu0MAfez9/LJYavdM8TvcVl+S91A/7VWxyBT8hbRuWspmuCaiGI0F41OJYGrKhRA==
-  dependencies:
-    "@types/react" "^18"
-
-"@types/react@^18", "@types/react@^18.3.23":
+"@types/react@^18.3.23":
   version "18.3.23"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.23.tgz#86ae6f6b95a48c418fecdaccc8069e0fbb63696a"
   integrity sha512-/LDXMQh55EzZQ0uVAZmKKhfENivEvWz6E+EYzh+/MCjMhNsotd+ZHhBGIjFDTi6+fz0OhQQQLbTgdQIxxCsC0w==
@@ -3133,6 +3125,11 @@ queue-microtask@^1.2.2:
   resolved "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
+react-compiler-runtime@^19.1.0-rc.2:
+  version "19.1.0-rc.3"
+  resolved "https://registry.yarnpkg.com/react-compiler-runtime/-/react-compiler-runtime-19.1.0-rc.3.tgz#b6bb74777ebbd27dcbf830de0285387c92409c32"
+  integrity sha512-Cssogys2XZu6SqxRdX2xd8cQAf57BBvFbLEBlIa77161lninbKUn/EqbecCe7W3eqDQfg3rIoOwzExzgCh7h/g==
+
 react-dom@^19.1.1:
   version "19.1.1"
   resolved "https://registry.npmjs.org/react-dom/-/react-dom-19.1.1.tgz"
@@ -3149,11 +3146,6 @@ react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
-
-react-is@^18.2.0:
-  version "18.3.1"
-  resolved "https://registry.npmjs.org/react-is/-/react-is-18.3.1.tgz"
-  integrity sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==
 
 react-is@^19.1.1:
   version "19.1.1"
