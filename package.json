@@ -25,7 +25,7 @@
         "@csstools/postcss-global-data": "3.0.0",
         "@eslint/js": "^9.35.0",
         "@github/browserslist-config": "^1.0.0",
-        "@types/react": "^18.3.23",
+        "@types/react": "^19.1.15",
         "@types/react-dom": "^19.0.1",
         "@vitejs/plugin-react": "^4.3.4",
         "eslint": "^9.33.0",
