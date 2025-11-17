@@ -12,7 +12,7 @@
     "dependencies": {
         "@generouted/react-router": "^1.19.11",
         "@primer/octicons-react": "^19.15.5",
-        "@primer/primitives": "^10.0.0",
+        "@primer/primitives": "^11.3.0",
         "@primer/react": "^37.31.0",
         "react": "^19.1.1",
         "react-dom": "^19.1.1",
