@@ -15,8 +15,8 @@
         "@primer/primitives": "^11.3.0",
         "@primer/react": "^37.31.0",
         "react": "^19.2.0",
-        "react-dom": "^19.1.1",
-        "react-is": "^19.1.1",
+        "react-dom": "^19.2.0",
+        "react-is": "^19.2.0",
         "react-router-dom": "^7.6.0",
         "styled-components": "^5.3.11",
         "web-vitals": "^5.1.0"
