@@ -908,10 +908,10 @@
   resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-19.21.1.tgz#17a7962f057bafd07d46bd55a6c2179852d58e6a"
   integrity sha512-DHaErpn2ZLMOJRxTdLf73eCDRvvil3xRmsOvKzg+I5KY0PsclYvEs/OX/Xb6fTK+PTteehidFvHBxrLYyEQ9Mg==
 
-"@primer/primitives@10.x || 11.x", "@primer/primitives@^11.3.0":
-  version "11.3.0"
-  resolved "https://registry.npmjs.org/@primer/primitives/-/primitives-11.3.0.tgz"
-  integrity sha512-eQkAaODy7/T1LwX38YLdQUKNTcLdiIY5DN8u2Ylov0Y1MOGpMCW4yF6/oH8slS3WDnQVbtNOAqqyuGYM8Un41g==
+"@primer/primitives@10.x || 11.x", "@primer/primitives@^11.3.2":
+  version "11.3.2"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-11.3.2.tgz#2ea09ef48b7db9e66f3406553f453d8bdd665b34"
+  integrity sha512-/8EDh3MmF9cbmrLETFmIuNFIdvpSCkvBlx6zzD8AZ4dZ5UYExQzFj8QAtIrRtCFJ2ZmW5QrtrPR3+JVb8KEDpg==
 
 "@primer/react@^38.5.0":
   version "38.5.0"
