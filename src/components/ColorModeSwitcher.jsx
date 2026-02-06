@@ -1,7 +1,7 @@
-import { useTheme, ActionMenu, ActionList } from '@primer/react'
+import { useTheme, ActionMenu, ActionList, Stack } from '@primer/react'
 import { SunIcon, MoonIcon } from '@primer/octicons-react'
 
-import styles from './ColorModeSwitcher.module.css'
+import styles from './colorModeSwitcher.module.css'
 
 function ColorModeSwitcher() {
     const { setDayScheme, setNightScheme, colorScheme } = useTheme()
@@ -47,30 +47,37 @@ function ColorModeSwitcher() {
     const current = schemes.find((scheme) => scheme.value === colorScheme)
 
     return (
-        <div className={styles.switcher}>
-            <ActionMenu>
-                <ActionMenu.Button size="medium">
-                    <current.icon />
-                    <div className={styles.btnText}> {current.name}</div>
-                </ActionMenu.Button>
-                <ActionMenu.Overlay align="right">
-                    <ActionList>
-                        <ActionList.Group selectionVariant="single">
-                            {schemes.map((scheme) => (
-                                <ActionList.Item
-                                    key={scheme.value}
-                                    href="#"
-                                    selected={scheme.value === colorScheme}
-                                    onSelect={() => setScheme(scheme.value)}
-                                >
-                                    {scheme.name}
-                                </ActionList.Item>
-                            ))}
-                        </ActionList.Group>
-                    </ActionList>
-                </ActionMenu.Overlay>
-            </ActionMenu>
-        </div>
+        <Stack padding="normal" className={styles.container}>
+            <Stack
+                className={styles.buttonWrapper}
+            >
+                <ActionMenu>
+                    <ActionMenu.Button size="small">
+                        <current.icon />
+                        <Stack className={styles.label}>
+                            {' '}
+                            {current.name}
+                        </Stack>
+                    </ActionMenu.Button>
+                    <ActionMenu.Overlay align="right">
+                        <ActionList showDividers>
+                            <ActionList.Group selectionVariant="single">
+                                {schemes.map((scheme) => (
+                                    <ActionList.Item
+                                        key={scheme.value}
+                                        href="#"
+                                        selected={scheme.value === colorScheme}
+                                        onSelect={() => setScheme(scheme.value)}
+                                    >
+                                        {scheme.name}
+                                    </ActionList.Item>
+                                ))}
+                            </ActionList.Group>
+                        </ActionList>
+                    </ActionMenu.Overlay>
+                </ActionMenu>
+            </Stack>
+        </Stack>
     )
 }
 

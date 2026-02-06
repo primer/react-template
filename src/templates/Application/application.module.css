@@ -1,0 +1,26 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  min-height: 100vh;
+}
+
+.navigation {
+  width: 320px;
+  padding-inline: var(--base-size-16);
+  border-inline-end: 1px solid var(--borderColor-default)
+}
+
+.main {
+  min-width: 100vw;
+  padding: var(--base-size-16);
+}
+
+.container {
+  background-color: var(--bgColor-default);
+}
+
+/* Override to fix a broken hover state on the Sidebar Navigation component */
+[data-component="ActionList.Item--DividerContainer"]:hover,
+[data-component="ActionList.Item--DividerContainer"] *:hover {
+  background-color: transparent !important;
+}

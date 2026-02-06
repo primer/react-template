@@ -1,0 +1,26 @@
+.header {
+  background-color: var(--bgColor-inset);
+  width: 100%;
+  max-width: 100%;
+}
+
+.headerContent {
+  display: flex;
+  gap: var(--base-size-16);
+  align-items: center;
+  padding-inline: var(--base-size-16);
+  padding-block-start: var(--base-size-16);
+  padding-block-end: var(--base-size-8);
+}
+
+.titleWrapper {
+  font-size: var(--text-body-size-medium);
+}
+
+.separator {
+  color: var(--fgColor-muted);
+}
+
+.subtitle {
+  font-weight: var(--base-text-weight-semibold);
+}

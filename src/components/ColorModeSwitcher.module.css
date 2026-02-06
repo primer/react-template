@@ -1,11 +1,15 @@
-.switcher {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: var(--base-size-12);
+.container {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
-.btnText {
-    display: inline-block;
-    margin-left: var(--base-size-8);
+.buttonWrapper {
+  position: relative;
+  justify-content: flex-end;
+}
+
+.label {
+  display: inline-block;
+  margin-inline-start: var(--base-size-8);
 }
