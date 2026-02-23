@@ -919,10 +919,10 @@
   resolved "https://registry.npmjs.org/@oddbird/popover-polyfill/-/popover-polyfill-0.5.2.tgz"
   integrity sha512-iFrvar5SOMtKFOSjYvs4z9UlLqDdJbMx0mgISLcPedv+g0ac5sgeETLGtipHCVIae6HJPclNEH5aCyD1RZaEHw==
 
-"@primer/behaviors@^1.9.0":
-  version "1.9.0"
-  resolved "https://registry.npmjs.org/@primer/behaviors/-/behaviors-1.9.0.tgz"
-  integrity sha512-MIVSZlQGJzas44DZDwo4Dqiev289K918oDl/AcA+zTpQAjp+PrJ0LUxEnrSOapyivLYpRpmSCeF0XPh7NgXpCA==
+"@primer/behaviors@^1.9.1":
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@primer/behaviors/-/behaviors-1.9.1.tgz#bf829c5041d0c90d6c27cffd0217a14d75b6b620"
+  integrity sha512-wssAE1ezYP3rZjt/dOPju3E7s3wsNkM08QoX33yA6hXUfuXTbGkEKsYnnbLT691/S/sNoZR2GMAkSkIyNDDyJA==
 
 "@primer/live-region-element@^0.7.1":
   version "0.7.2"
@@ -931,7 +931,7 @@
   dependencies:
     "@lit-labs/ssr-dom-shim" "^1.2.0"
 
-"@primer/octicons-react@^19.13.0", "@primer/octicons-react@^19.21.1":
+"@primer/octicons-react@^19.21.0", "@primer/octicons-react@^19.21.1":
   version "19.21.1"
   resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-19.21.1.tgz#17a7962f057bafd07d46bd55a6c2179852d58e6a"
   integrity sha512-DHaErpn2ZLMOJRxTdLf73eCDRvvil3xRmsOvKzg+I5KY0PsclYvEs/OX/Xb6fTK+PTteehidFvHBxrLYyEQ9Mg==
@@ -941,19 +941,19 @@
   resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-11.3.2.tgz#2ea09ef48b7db9e66f3406553f453d8bdd665b34"
   integrity sha512-/8EDh3MmF9cbmrLETFmIuNFIdvpSCkvBlx6zzD8AZ4dZ5UYExQzFj8QAtIrRtCFJ2ZmW5QrtrPR3+JVb8KEDpg==
 
-"@primer/react@^38.5.0":
-  version "38.5.0"
-  resolved "https://registry.npmjs.org/@primer/react/-/react-38.5.0.tgz"
-  integrity sha512-sHGs0OL/oJMU4YbP91yXAqXpNKp3PK/UIJmVtO9SrtRk4R8a55s0nU+fL4HSqVDRdzfBP3Ukza6zebIUDeV81g==
+"@primer/react@^38.7.0":
+  version "38.7.0"
+  resolved "https://registry.yarnpkg.com/@primer/react/-/react-38.7.0.tgz#b876d8d09d74ee2eafde4b684bbaf182a7c32fc5"
+  integrity sha512-pB+RvaYeZQlooQBlfMwknszONtGLj0l2cxmom/M227HOJ9HS9QttI1dh8qxeUGryKpple2RQf6Z9zQX0cxllTA==
   dependencies:
     "@github/mini-throttle" "^2.1.1"
     "@github/relative-time-element" "^4.5.0"
     "@github/tab-container-element" "^4.8.2"
     "@lit-labs/react" "1.2.1"
     "@oddbird/popover-polyfill" "^0.5.2"
-    "@primer/behaviors" "^1.9.0"
+    "@primer/behaviors" "^1.9.1"
     "@primer/live-region-element" "^0.7.1"
-    "@primer/octicons-react" "^19.13.0"
+    "@primer/octicons-react" "^19.21.0"
     "@primer/primitives" "10.x || 11.x"
     clsx "^2.1.1"
     color2k "^2.0.3"
