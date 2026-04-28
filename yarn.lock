@@ -809,10 +809,10 @@
   resolved "https://registry.npmjs.org/@github/mini-throttle/-/mini-throttle-2.1.1.tgz"
   integrity sha512-KtOPaB+FiKJ6jcKm9UKyaM5fPURHGf+xcp+b4Mzoi81hOc6M1sIGpMZMAVbNzfa2lW5+RPGKq888Px0j76OZ/A==
 
-"@github/relative-time-element@^4.5.0":
-  version "4.5.1"
-  resolved "https://registry.npmjs.org/@github/relative-time-element/-/relative-time-element-4.5.1.tgz"
-  integrity sha512-uxCxCwe9vdwUDmRmM84tN0UERlj8MosLV44+r/VDj7DZUVUSTP4vyWlE9mRK6vHelOmT8DS3RMlaMrLlg1h1PQ==
+"@github/relative-time-element@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@github/relative-time-element/-/relative-time-element-5.0.0.tgz#86d2f8027987eff2eb12fa640eddb294f81e5319"
+  integrity sha512-L/2r0DNR/rMbmHWcsdmhtOiy2gESoGOhItNFD4zJ3nZfHl79Dx3N18Vfx/pYr2lruMOdk1cJZb4wEumm+Dxm1w==
 
 "@github/tab-container-element@^4.8.2":
   version "4.8.2"
@@ -917,10 +917,10 @@
   resolved "https://registry.npmjs.org/@oddbird/popover-polyfill/-/popover-polyfill-0.5.2.tgz"
   integrity sha512-iFrvar5SOMtKFOSjYvs4z9UlLqDdJbMx0mgISLcPedv+g0ac5sgeETLGtipHCVIae6HJPclNEH5aCyD1RZaEHw==
 
-"@primer/behaviors@^1.9.1":
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/@primer/behaviors/-/behaviors-1.9.1.tgz#bf829c5041d0c90d6c27cffd0217a14d75b6b620"
-  integrity sha512-wssAE1ezYP3rZjt/dOPju3E7s3wsNkM08QoX33yA6hXUfuXTbGkEKsYnnbLT691/S/sNoZR2GMAkSkIyNDDyJA==
+"@primer/behaviors@^1.10.2":
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/@primer/behaviors/-/behaviors-1.10.2.tgz#a939eca8f53d3dd23a22576b6fdf766e517d6273"
+  integrity sha512-93juWZbWg2DRhC11+7RT7hMpY1VD3lBosLmccqEZ65yrCHqkBCjI8Uj8wxs3y0U+wWE07LAoLHAPylyWbifg5A==
 
 "@primer/live-region-element@^0.7.1":
   version "0.7.2"
@@ -929,7 +929,7 @@
   dependencies:
     "@lit-labs/ssr-dom-shim" "^1.2.0"
 
-"@primer/octicons-react@^19.21.0", "@primer/octicons-react@^19.24.1":
+"@primer/octicons-react@^19.24.1":
   version "19.24.1"
   resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-19.24.1.tgz#ad51a05d52bf46f4c35ded9d0aa88d27a4e89fb9"
   integrity sha512-Y4EqqNb6VrFWfs9HDu3EUpFNm2xbOWMh6uEyXn968gQgXDxfRjBKhWoogrMsbo74S3mGAP0KYSxL8ZebWHDRtA==
@@ -939,20 +939,21 @@
   resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-11.3.2.tgz#2ea09ef48b7db9e66f3406553f453d8bdd665b34"
   integrity sha512-/8EDh3MmF9cbmrLETFmIuNFIdvpSCkvBlx6zzD8AZ4dZ5UYExQzFj8QAtIrRtCFJ2ZmW5QrtrPR3+JVb8KEDpg==
 
-"@primer/react@^38.7.0":
-  version "38.7.0"
-  resolved "https://registry.yarnpkg.com/@primer/react/-/react-38.7.0.tgz#b876d8d09d74ee2eafde4b684bbaf182a7c32fc5"
-  integrity sha512-pB+RvaYeZQlooQBlfMwknszONtGLj0l2cxmom/M227HOJ9HS9QttI1dh8qxeUGryKpple2RQf6Z9zQX0cxllTA==
+"@primer/react@^38.21.0":
+  version "38.21.0"
+  resolved "https://registry.yarnpkg.com/@primer/react/-/react-38.21.0.tgz#5be0391a87733ee2b292b5ace20cbf59cec1590e"
+  integrity sha512-Aes92LpOq+M/WfU1dqbeJLW4YKepDfZxil3g0zqZLTHlDUZWJOeCWEQSYjXrstfNJR4+I0CpPAFq5TTJsZcSKw==
   dependencies:
     "@github/mini-throttle" "^2.1.1"
-    "@github/relative-time-element" "^4.5.0"
+    "@github/relative-time-element" "^5.0.0"
     "@github/tab-container-element" "^4.8.2"
     "@lit-labs/react" "1.2.1"
     "@oddbird/popover-polyfill" "^0.5.2"
-    "@primer/behaviors" "^1.9.1"
+    "@primer/behaviors" "^1.10.2"
     "@primer/live-region-element" "^0.7.1"
-    "@primer/octicons-react" "^19.21.0"
+    "@primer/octicons-react" "^19.24.1"
     "@primer/primitives" "10.x || 11.x"
+    "@tanstack/react-virtual" "^3.13.18"
     clsx "^2.1.1"
     color2k "^2.0.3"
     deepmerge "^4.3.1"
@@ -1093,6 +1094,18 @@
   version "4.59.0"
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.59.0.tgz#4584a8a87b29188a4c1fe987a9fcf701e256d86c"
   integrity sha512-2HRCml6OztYXyJXAvdDXPKcawukWY2GpR5/nxKp4iBgiO3wcoEGkAaqctIbZcNB6KlUQBIqt8VYkNSj2397EfA==
+
+"@tanstack/react-virtual@^3.13.18":
+  version "3.13.24"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-virtual/-/react-virtual-3.13.24.tgz#77af3d5dcf77358d805b7b3b06d3221af7bd3f6f"
+  integrity sha512-aIJvz5OSkhNIhZIpYivrxrPTKYsjW9Uzy+sP/mx0S3sev2HyvPb7xmjbYvokzEpfgYHy/HjzJ2zFAETuUfgCpg==
+  dependencies:
+    "@tanstack/virtual-core" "3.14.0"
+
+"@tanstack/virtual-core@3.14.0":
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/virtual-core/-/virtual-core-3.14.0.tgz#c8839d0d702b8af47c0e57d4ab72fc3ba8bbf3da"
+  integrity sha512-JLANqGy/D6k4Ujmh8Tr25lGimuOXNiaVyXaCAZS0W+1390sADdGnyUdSWNIfd49gebtIxGMij4IktRVzrdr12Q==
 
 "@types/babel__core@^7.20.5":
   version "7.20.5"
