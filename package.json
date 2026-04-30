@@ -11,7 +11,7 @@
     },
     "dependencies": {
         "@generouted/react-router": "^1.19.11",
-        "@primer/octicons-react": "^19.24.1",
+        "@primer/octicons-react": "^19.25.0",
         "@primer/primitives": "^11.7.1",
         "@primer/react": "^38.21.1",
         "react": "^19.2.0",
