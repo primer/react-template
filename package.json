@@ -15,7 +15,7 @@
         "@primer/primitives": "^11.9.0",
         "@primer/react": "^38.28.0",
         "react": "^19.2.7",
-        "react-dom": "^19.2.0",
+        "react-dom": "^19.2.7",
         "react-is": "^19.2.7",
         "react-router-dom": "^7.18.0",
         "styled-components": "^6.4.2",
