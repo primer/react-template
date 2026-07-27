@@ -725,11 +725,6 @@
   resolved "https://registry.yarnpkg.com/@github/relative-time-element/-/relative-time-element-5.0.0.tgz#86d2f8027987eff2eb12fa640eddb294f81e5319"
   integrity sha512-L/2r0DNR/rMbmHWcsdmhtOiy2gESoGOhItNFD4zJ3nZfHl79Dx3N18Vfx/pYr2lruMOdk1cJZb4wEumm+Dxm1w==
 
-"@github/tab-container-element@^4.8.2":
-  version "4.8.2"
-  resolved "https://registry.npmjs.org/@github/tab-container-element/-/tab-container-element-4.8.2.tgz"
-  integrity sha512-WkaM4mfs8x7dXRWEaDb5deC0OhH6sGQ5cw8i/sVw25gikl4f8C7mHj0kihL5k3eKIIqmGT1Fdswdoi+9ZLDpRA==
-
 "@humanfs/core@^0.19.1":
   version "0.19.1"
   resolved "https://registry.npmjs.org/@humanfs/core/-/core-0.19.1.tgz"
@@ -862,14 +857,13 @@
   resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-11.9.0.tgz#ef6d015e5bdb9e3d6b2171417b22fe7c37960baa"
   integrity sha512-yESOalhd7s7S3unV1V32v3Z0RszXiiz6pzy6hVI9xpdTh1q1Gt8vyDFxRlqIvuwc5ZaO1+gYQTDbjxb4nWBzMw==
 
-"@primer/react@^38.33.0":
-  version "38.33.0"
-  resolved "https://registry.yarnpkg.com/@primer/react/-/react-38.33.0.tgz#7a074c5cf3487edf2ff82321ebcd5922a7fc3d1c"
-  integrity sha512-8IyBtJDRTwQP6S0m8JNWjvAKZqIAfZyWw7J3aDYNDyMFVGSVSnWfQPsDxBHheHwCQs7ExsZnJpdvy+WCqF44PQ==
+"@primer/react@^38.34.0":
+  version "38.34.0"
+  resolved "https://registry.yarnpkg.com/@primer/react/-/react-38.34.0.tgz#f10bdedb63168f9f392f308d80abb86728b0fe83"
+  integrity sha512-YBJAsMFZJk0YvSKGIduBkwr961GBTmq3kIBVI63WaDmuOczvhq7ox13F+CwMT/fAoyp9emYYw1YtfganLc+APQ==
   dependencies:
     "@github/mini-throttle" "^2.1.1"
     "@github/relative-time-element" "^5.0.0"
-    "@github/tab-container-element" "^4.8.2"
     "@lit-labs/react" "1.2.1"
     "@oddbird/popover-polyfill" "^0.5.2"
     "@primer/behaviors" "^1.10.3"
