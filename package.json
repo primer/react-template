@@ -18,7 +18,7 @@
         "react-dom": "^19.2.8",
         "react-is": "^19.2.8",
         "react-router-dom": "^7.18.2",
-        "styled-components": "^6.5.0",
+        "styled-components": "^6.5.1",
         "web-vitals": "^6.1.0"
     },
     "devDependencies": {
