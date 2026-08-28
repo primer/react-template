@@ -3295,10 +3295,10 @@ vite@^8.2.2:
   optionalDependencies:
     fsevents "~2.3.3"
 
-web-vitals@^6.1.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-6.1.1.tgz#855ba63ed40847c55e061ac13f55ee5f6435b723"
-  integrity sha512-r93gKnR6ZC2O8F3JrS0AAGIQ0v0OhXuyg4DAj2oG7K+GPkwXfUSc3ZcWeu50AsV5yIc6xxnTjERipJ6EvSw2vg==
+web-vitals@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-6.2.0.tgz#02b503513d9e8f37ab469bb322b2a0b1110d31eb"
+  integrity sha512-i2jhLkq6eB38jgJX5OIjEkyzQKgsG7FR56v7GphJNjzKAySgbRbwAfsFC0dDfHROWmCycf912SJpU2QoYIcMVg==
 
 which-boxed-primitive@^1.1.0, which-boxed-primitive@^1.1.1:
   version "1.1.1"
