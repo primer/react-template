@@ -831,10 +831,10 @@
   resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-11.10.0.tgz#affc83ae02229e05dbc599d9903643f3b08dc3bd"
   integrity sha512-ihZxIst4Izry284StKFjpbYvX6R/IBFTLu+qiuAmR93PsKF2hdjoabhSYwKI8iCxOUx94jVP55bI3NoY7STjYQ==
 
-"@primer/react@^38.36.0":
-  version "38.36.0"
-  resolved "https://registry.yarnpkg.com/@primer/react/-/react-38.36.0.tgz#4197724b572037c9a646daf75baec448eaf5c792"
-  integrity sha512-mI+s1QpOPQ5PjN5sooxJ71W+MYf4OymExtNnydHyt20oren45+H1/re6x4tSuIvyDsmNyCbTdBOBIpTatkKafA==
+"@primer/react@^38.38.0":
+  version "38.38.0"
+  resolved "https://registry.yarnpkg.com/@primer/react/-/react-38.38.0.tgz#83efc19d9f40442896904c9ab8ab2d9814d63486"
+  integrity sha512-TVF4c45iwZsjZf8uINyxXL3PY9t7R/uLi/F8GY/bNi1pTtdgjsoJA19aov/wqo5W54cQdN8P8hjoiL1NnQ+AxQ==
   dependencies:
     "@github/mini-throttle" "^2.1.1"
     "@github/relative-time-element" "^5.0.0"
