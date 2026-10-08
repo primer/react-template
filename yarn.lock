@@ -861,10 +861,10 @@
   resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-11.10.0.tgz#affc83ae02229e05dbc599d9903643f3b08dc3bd"
   integrity sha512-ihZxIst4Izry284StKFjpbYvX6R/IBFTLu+qiuAmR93PsKF2hdjoabhSYwKI8iCxOUx94jVP55bI3NoY7STjYQ==
 
-"@primer/react@^38.38.0":
-  version "38.38.0"
-  resolved "https://registry.yarnpkg.com/@primer/react/-/react-38.38.0.tgz#83efc19d9f40442896904c9ab8ab2d9814d63486"
-  integrity sha512-TVF4c45iwZsjZf8uINyxXL3PY9t7R/uLi/F8GY/bNi1pTtdgjsoJA19aov/wqo5W54cQdN8P8hjoiL1NnQ+AxQ==
+"@primer/react@^38.40.1":
+  version "38.40.1"
+  resolved "https://registry.yarnpkg.com/@primer/react/-/react-38.40.1.tgz#0d9ce1edf7e3e4d594d1a7bd0cc7fdeae8b89621"
+  integrity sha512-yTd+QTtWXdqJbWQLCnLibwh280j2TKw1+tREEXtJR6lRYiqrE1dnu5ifCsKhsqIYvxqaKZBNWg4KRqiFG6opZA==
   dependencies:
     "@github/mini-throttle" "^2.1.1"
     "@github/relative-time-element" "^5.0.0"
@@ -883,7 +883,6 @@
     hsluv "1.0.1"
     lodash.isempty "^4.4.0"
     lodash.isobject "^3.0.2"
-    react-compiler-runtime "^1.0.0"
     react-intersection-observer "^10.0.3"
 
 "@rolldown/binding-android-arm-eabi@1.2.11":
@@ -2874,11 +2873,6 @@ queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
-
-react-compiler-runtime@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/react-compiler-runtime/-/react-compiler-runtime-1.0.0.tgz"
-  integrity sha512-rRfjYv66HlG8896yPUDONgKzG5BxZD1nV9U6rkm+7VCuvQc903C4MjcoZR4zPw53IKSOX9wMQVpA1IAbRtzQ7w==
 
 react-dom@^19.3.0:
   version "19.3.0"
