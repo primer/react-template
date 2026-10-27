@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
@@ -20,8 +23,14 @@ jobs:
       - name: Install dependencies
         run: npm ci --legacy-peer-deps
 
+      - name: Set Base URL
+        id: set_base_url
+        run: echo "base_url=/${{ github.event.repository.name }}/" >> $GITHUB_OUTPUT
+
       - name: Build project
         run: npm run build
+        env:
+          VITE_BASE_URL: ${{ steps.set_base_url.outputs.base_url }}
 
       - name: Upload static files as artifact
         id: deployment
