@@ -866,10 +866,10 @@
   dependencies:
     "@lit-labs/ssr-dom-shim" "^1.6.0"
 
-"@primer/octicons-react@^19.28.1", "@primer/octicons-react@^19.35.0":
-  version "19.35.0"
-  resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-19.35.0.tgz#382727c67e9d77f8c6f216dfa620ad2f3be861a2"
-  integrity sha512-HrNykL6EuWjffgONUx+qT5amdhKgVBPcU73Z1ppWve0n/DnZpAcxIDUKWn3hfSe/L9nXv+pKyY/i5Yu99ECHwQ==
+"@primer/octicons-react@^19.28.1", "@primer/octicons-react@^19.42.0":
+  version "19.42.0"
+  resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-19.42.0.tgz#3f016e7be6a125e3887eb914e8f111eee62d306f"
+  integrity sha512-KLGHFBK28ubfEhRf1+B4OzfLDO3ItXwqYsPAdrfOPPzN3uD2Jp7rYdE5rLkdCHCzkyjh14eH5vL0pHq8dyJmsA==
 
 "@primer/primitives@10.x || 11.x", "@primer/primitives@^11.10.0":
   version "11.10.0"
