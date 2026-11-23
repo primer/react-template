@@ -878,10 +878,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@oddbird/popover-polyfill@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.npmjs.org/@oddbird/popover-polyfill/-/popover-polyfill-0.5.2.tgz"
-  integrity sha512-iFrvar5SOMtKFOSjYvs4z9UlLqDdJbMx0mgISLcPedv+g0ac5sgeETLGtipHCVIae6HJPclNEH5aCyD1RZaEHw==
+"@oddbird/popover-polyfill@^0.7.3":
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/@oddbird/popover-polyfill/-/popover-polyfill-0.7.3.tgz#e8578276f625657f509c01b6a746c59ae1c22cbd"
+  integrity sha512-uOY7RLqS1M12u+EzZHQ8vPSh3NjwDlb4qwJ1WDzQ0inZ14+47Vv0NNs+1Lh4PtX1nLiiCbfJyIxPRHsgBTvhvg==
 
 "@oxc-project/types@=0.156.0":
   version "0.156.0"
@@ -910,15 +910,15 @@
   resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-11.10.0.tgz#affc83ae02229e05dbc599d9903643f3b08dc3bd"
   integrity sha512-ihZxIst4Izry284StKFjpbYvX6R/IBFTLu+qiuAmR93PsKF2hdjoabhSYwKI8iCxOUx94jVP55bI3NoY7STjYQ==
 
-"@primer/react@^38.43.0":
-  version "38.43.0"
-  resolved "https://registry.yarnpkg.com/@primer/react/-/react-38.43.0.tgz#3308e67c75f63735ab4a281b65d4201057568381"
-  integrity sha512-7kLqRKk6diXQ+63nMEh7pJwrCmmWMg9P3t2yYUsiq8rWApZTo2PP3KWoPcPylIu+daJp49PfeJLDoDGrU6v/vQ==
+"@primer/react@^38.46.0":
+  version "38.46.0"
+  resolved "https://registry.yarnpkg.com/@primer/react/-/react-38.46.0.tgz#2bf7a49c653e4fd49dbc649ff7569ae6155bb013"
+  integrity sha512-cHkBli/WDDM4SCHLtaBjVo2yVHRMGmFy7//SJrGr/4Hm+MZLSD4BDfBdqIhoX7wOKtbKMpQQP0qhUkNiM+YZkg==
   dependencies:
     "@github/mini-throttle" "^2.1.1"
     "@github/relative-time-element" "^5.0.0"
     "@lit-labs/react" "1.2.1"
-    "@oddbird/popover-polyfill" "^0.5.2"
+    "@oddbird/popover-polyfill" "^0.7.3"
     "@primer/behaviors" "^1.10.3"
     "@primer/live-region-element" "^0.8.1"
     "@primer/octicons-react" "^19.28.1"
