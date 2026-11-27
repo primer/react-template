@@ -952,10 +952,10 @@
   resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-11.10.0.tgz#affc83ae02229e05dbc599d9903643f3b08dc3bd"
   integrity sha512-ihZxIst4Izry284StKFjpbYvX6R/IBFTLu+qiuAmR93PsKF2hdjoabhSYwKI8iCxOUx94jVP55bI3NoY7STjYQ==
 
-"@primer/react@^38.46.0":
-  version "38.46.0"
-  resolved "https://registry.yarnpkg.com/@primer/react/-/react-38.46.0.tgz#2bf7a49c653e4fd49dbc649ff7569ae6155bb013"
-  integrity sha512-cHkBli/WDDM4SCHLtaBjVo2yVHRMGmFy7//SJrGr/4Hm+MZLSD4BDfBdqIhoX7wOKtbKMpQQP0qhUkNiM+YZkg==
+"@primer/react@^38.47.0":
+  version "38.47.0"
+  resolved "https://registry.yarnpkg.com/@primer/react/-/react-38.47.0.tgz#b6e9dac9988d8915a2d1fe53c0e439b823951c76"
+  integrity sha512-UsEjfKaCReJOUgXiR3Wq+hlqSXP8CQR2q0Hp0TP3Inw9hK9HOucnwx9s57XCteFemFY53MHb8GgC7KCK+j++6A==
   dependencies:
     "@github/mini-throttle" "^2.1.1"
     "@github/relative-time-element" "^5.0.0"
@@ -971,10 +971,8 @@
     deepmerge "^4.3.1"
     focus-visible "^5.2.1"
     history "^5.0.0"
-    hsluv "1.0.1"
     lodash.isempty "^4.4.0"
     lodash.isobject "^3.0.2"
-    react-intersection-observer "^10.0.3"
 
 "@rolldown/binding-android-arm-eabi@1.2.19":
   version "1.2.19"
@@ -2056,11 +2054,6 @@ history@^5.0.0:
   dependencies:
     "@babel/runtime" "^7.7.6"
 
-hsluv@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/hsluv/-/hsluv-1.0.1.tgz"
-  integrity sha512-zCaFTiDqBLQjCCFBu0qg7z9ASYPd+Bxx2GDCVZJsnehjK80S+jByqhuFz0pCd2Aw3FSKr18AWbRlwnKR0YdizQ==
-
 ignore@^5.2.0:
   version "5.3.2"
   resolved "https://registry.npmjs.org/ignore/-/ignore-5.3.2.tgz"
@@ -2996,11 +2989,6 @@ react-dom@^19.3.1:
   integrity sha512-Y0bARz53lhEC1NMCASs0/j+faB/zqt3R8hpvg1e8+61ZVJ4UL0UdC4cBbXfZMcIuhrfgeILTLe+ZeBCavQPtKQ==
   dependencies:
     scheduler "^0.28.0"
-
-react-intersection-observer@^10.0.3:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/react-intersection-observer/-/react-intersection-observer-10.1.0.tgz#4aedf418c793f2bcf27353263f43553d12afba71"
-  integrity sha512-V8HDu3+Llg6OEhOxx8LnUSS0t4VS+1Xk9ZatkI8Jct/H0CwKnqFTCu8NT3q7ghJTghTdIrEMPSWr2dkKPG+gdQ==
 
 react-is@^16.13.1:
   version "16.13.1"
